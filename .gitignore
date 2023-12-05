@@ -1,3 +1,5 @@
 software/
 data/
 *.log
+.pybiomart.sqlite/
+.snakemake/
