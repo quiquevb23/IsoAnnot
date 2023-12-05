@@ -1,5 +1,4 @@
 software/
 data/
 *.log
-.*
-!.gitignore
+
