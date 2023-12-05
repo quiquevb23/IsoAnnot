@@ -1,0 +1,177 @@
+{
+  "build": "pyh864c0ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "future",
+    "pandas",
+    "python",
+    "requests",
+    "requests_cache"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/pybiomart-0.2.0-pyh864c0ab_1",
+  "files": [
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/AUTHORS.rst",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pybiomart-0.2.0.dist-info/zip-safe",
+    "lib/python3.10/site-packages/pybiomart/__init__.py",
+    "lib/python3.10/site-packages/pybiomart/base.py",
+    "lib/python3.10/site-packages/pybiomart/dataset.py",
+    "lib/python3.10/site-packages/pybiomart/mart.py",
+    "lib/python3.10/site-packages/pybiomart/server.py",
+    "lib/python3.10/site-packages/pybiomart/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pybiomart/__pycache__/base.cpython-310.pyc",
+    "lib/python3.10/site-packages/pybiomart/__pycache__/dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/pybiomart/__pycache__/mart.cpython-310.pyc",
+    "lib/python3.10/site-packages/pybiomart/__pycache__/server.cpython-310.pyc"
+  ],
+  "fn": "pybiomart-0.2.0-pyh864c0ab_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/pybiomart-0.2.0-pyh864c0ab_1",
+    "type": 1
+  },
+  "md5": "aaf173ce74bce74bac3f9a43be90cd62",
+  "name": "pybiomart",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/pybiomart-0.2.0-pyh864c0ab_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "cc6ef269a780dd7ab8687f7a1be14aaccc81bab1da05b8b8a353915b7c21f9f6",
+        "sha256_in_prefix": "cc6ef269a780dd7ab8687f7a1be14aaccc81bab1da05b8b8a353915b7c21f9f6",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "af488239c4dc416f8473308f67bc9ccad1ad351983a61383eb74ac3fdfbb1843",
+        "sha256_in_prefix": "af488239c4dc416f8473308f67bc9ccad1ad351983a61383eb74ac3fdfbb1843",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "372265cb0f4e5428e2b52384bff55df70217fa30d1eb65b84fd60500f3a8677f",
+        "sha256_in_prefix": "372265cb0f4e5428e2b52384bff55df70217fa30d1eb65b84fd60500f3a8677f",
+        "size_in_bytes": 1140
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "253982ad81194fcf55ae979038ce235273ab32af22b0f01d578508e373cbf63c",
+        "sha256_in_prefix": "253982ad81194fcf55ae979038ce235273ab32af22b0f01d578508e373cbf63c",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "sha256_in_prefix": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d7c012848573aed67a033e1b7fd905ffe2558de2be463e7078c2994bbe0db02b",
+        "sha256_in_prefix": "d7c012848573aed67a033e1b7fd905ffe2558de2be463e7078c2994bbe0db02b",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9a4d0445d7d58039d5abda51e8177d35d8cd48c955396af6f40d614ade131a44",
+        "sha256_in_prefix": "9a4d0445d7d58039d5abda51e8177d35d8cd48c955396af6f40d614ade131a44",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pybiomart-0.2.0.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/pybiomart/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "49bd3665087ba250e48e6170ff03aba351b41e42beee61a824028a459fadf2ae",
+        "sha256_in_prefix": "49bd3665087ba250e48e6170ff03aba351b41e42beee61a824028a459fadf2ae",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "site-packages/pybiomart/base.py",
+        "path_type": "hardlink",
+        "sha256": "6861c261073f145a590b276c58e6c18317182bf67a7566b57129c81a663e984a",
+        "sha256_in_prefix": "6861c261073f145a590b276c58e6c18317182bf67a7566b57129c81a663e984a",
+        "size_in_bytes": 3408
+      },
+      {
+        "_path": "site-packages/pybiomart/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "25d9e9596ca0b767ff46107ed4de8f5f9b53ac3383c44ca6a50003fd87d18093",
+        "sha256_in_prefix": "25d9e9596ca0b767ff46107ed4de8f5f9b53ac3383c44ca6a50003fd87d18093",
+        "size_in_bytes": 13947
+      },
+      {
+        "_path": "site-packages/pybiomart/mart.py",
+        "path_type": "hardlink",
+        "sha256": "0ead75e6ca30e9bf41057dd50b4c8e8fa3a7f342dbd050a277cdee6abeecd290",
+        "sha256_in_prefix": "0ead75e6ca30e9bf41057dd50b4c8e8fa3a7f342dbd050a277cdee6abeecd290",
+        "size_in_bytes": 4194
+      },
+      {
+        "_path": "site-packages/pybiomart/server.py",
+        "path_type": "hardlink",
+        "sha256": "a1a71a34b0df4eb675cc5763d30d12c98eff784329e055aa0286f615a02c6017",
+        "sha256_in_prefix": "a1a71a34b0df4eb675cc5763d30d12c98eff784329e055aa0286f615a02c6017",
+        "size_in_bytes": 3017
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pybiomart/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pybiomart/__pycache__/base.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pybiomart/__pycache__/dataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pybiomart/__pycache__/mart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pybiomart/__pycache__/server.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pybiomart==0.2.0=pyh864c0ab_1",
+  "sha256": "b471f3cbe9464c241d79af0bc9421722166bcca332d5d0ac4b8385f7ea387841",
+  "size": 13949,
+  "subdir": "noarch",
+  "timestamp": 1595734113643,
+  "url": "https://conda.anaconda.org/bioconda/noarch/pybiomart-0.2.0-pyh864c0ab_1.tar.bz2",
+  "version": "0.2.0"
+}

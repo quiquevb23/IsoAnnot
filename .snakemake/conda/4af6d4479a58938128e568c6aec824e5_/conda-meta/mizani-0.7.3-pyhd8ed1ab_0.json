@@ -1,0 +1,353 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.1.1",
+    "numpy",
+    "palettable",
+    "pandas >=1.1.0",
+    "python >=3.6.0"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/mizani-0.7.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.7/site-packages/mizani-0.7.3-py3.8.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/mizani-0.7.3-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/mizani-0.7.3-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/mizani-0.7.3-py3.8.egg-info/requires.txt",
+    "lib/python3.7/site-packages/mizani-0.7.3-py3.8.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/mizani/__init__.py",
+    "lib/python3.7/site-packages/mizani/_version.py",
+    "lib/python3.7/site-packages/mizani/bounds.py",
+    "lib/python3.7/site-packages/mizani/breaks.py",
+    "lib/python3.7/site-packages/mizani/external/__init__.py",
+    "lib/python3.7/site-packages/mizani/external/crayon_rgb.py",
+    "lib/python3.7/site-packages/mizani/external/husl.py",
+    "lib/python3.7/site-packages/mizani/external/xkcd_rgb.py",
+    "lib/python3.7/site-packages/mizani/formatters.py",
+    "lib/python3.7/site-packages/mizani/palettes.py",
+    "lib/python3.7/site-packages/mizani/scale.py",
+    "lib/python3.7/site-packages/mizani/tests/__init__.py",
+    "lib/python3.7/site-packages/mizani/tests/test_bounds.py",
+    "lib/python3.7/site-packages/mizani/tests/test_breaks.py",
+    "lib/python3.7/site-packages/mizani/tests/test_formatters.py",
+    "lib/python3.7/site-packages/mizani/tests/test_palettes.py",
+    "lib/python3.7/site-packages/mizani/tests/test_scale.py",
+    "lib/python3.7/site-packages/mizani/tests/test_transforms.py",
+    "lib/python3.7/site-packages/mizani/tests/test_utils.py",
+    "lib/python3.7/site-packages/mizani/transforms.py",
+    "lib/python3.7/site-packages/mizani/utils.py",
+    "lib/python3.7/site-packages/mizani/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/bounds.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/breaks.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/external/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/external/__pycache__/crayon_rgb.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/external/__pycache__/husl.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/external/__pycache__/xkcd_rgb.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/formatters.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/palettes.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/scale.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_bounds.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_breaks.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_formatters.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_palettes.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_scale.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_transforms.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/tests/__pycache__/test_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/transforms.cpython-37.pyc",
+    "lib/python3.7/site-packages/mizani/__pycache__/utils.cpython-37.pyc"
+  ],
+  "fn": "mizani-0.7.3-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/mizani-0.7.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "611b1383b1ffed6ce3162cd4d7accfa2",
+  "name": "mizani",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/mizani-0.7.3-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/mizani-0.7.3-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ea08556cbd7b5fbaee58976867be4c52d55b421183e3a1741f4d7ce0631c28e5",
+        "sha256_in_prefix": "ea08556cbd7b5fbaee58976867be4c52d55b421183e3a1741f4d7ce0631c28e5",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "site-packages/mizani-0.7.3-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "a6b7dff6c86fa861b3aafb63148300ef2b4d895ee2ac7cc8febf7ff4a0bc17ae",
+        "sha256_in_prefix": "a6b7dff6c86fa861b3aafb63148300ef2b4d895ee2ac7cc8febf7ff4a0bc17ae",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "site-packages/mizani-0.7.3-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/mizani-0.7.3-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "fbe261f759fc7b6c3548829767873917dab48356321472e3ebbf5ac3ab1e1843",
+        "sha256_in_prefix": "fbe261f759fc7b6c3548829767873917dab48356321472e3ebbf5ac3ab1e1843",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/mizani-0.7.3-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6a8050f940d19aeefd883993532476ed6f64e88570e6d55e18bf4957a3dab308",
+        "sha256_in_prefix": "6a8050f940d19aeefd883993532476ed6f64e88570e6d55e18bf4957a3dab308",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/mizani/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a8d96985a0cb484905f09c0122c93530927d3281427e185540792695be9718c3",
+        "sha256_in_prefix": "a8d96985a0cb484905f09c0122c93530927d3281427e185540792695be9718c3",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/mizani/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a3bb555ef404c2ea95211c7b56ec80d04976c4a8c0bbb5076927528f575c7c63",
+        "sha256_in_prefix": "a3bb555ef404c2ea95211c7b56ec80d04976c4a8c0bbb5076927528f575c7c63",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/mizani/bounds.py",
+        "path_type": "hardlink",
+        "sha256": "2ff7d23d4126a6e484ec23f3e22f8596151fe91a4f4826a5bf0437c1d8d4fcc8",
+        "sha256_in_prefix": "2ff7d23d4126a6e484ec23f3e22f8596151fe91a4f4826a5bf0437c1d8d4fcc8",
+        "size_in_bytes": 15012
+      },
+      {
+        "_path": "site-packages/mizani/breaks.py",
+        "path_type": "hardlink",
+        "sha256": "f9908cc0c654ce2445b691a088c8cb4ea1d009274faa3599e07da0b7b38bbf5a",
+        "sha256_in_prefix": "f9908cc0c654ce2445b691a088c8cb4ea1d009274faa3599e07da0b7b38bbf5a",
+        "size_in_bytes": 26029
+      },
+      {
+        "_path": "site-packages/mizani/external/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5bca454ff8e304b5802f9ef90bd27c706e43d7e63b002c255026dce6b2f0f3ca",
+        "sha256_in_prefix": "5bca454ff8e304b5802f9ef90bd27c706e43d7e63b002c255026dce6b2f0f3ca",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/mizani/external/crayon_rgb.py",
+        "path_type": "hardlink",
+        "sha256": "ea5a49757ed8f4b3973a6a3c565be3aada0db4554fee416adc13a302e6133104",
+        "sha256_in_prefix": "ea5a49757ed8f4b3973a6a3c565be3aada0db4554fee416adc13a302e6133104",
+        "size_in_bytes": 5055
+      },
+      {
+        "_path": "site-packages/mizani/external/husl.py",
+        "path_type": "hardlink",
+        "sha256": "e24f31e22fba9d8c3b5bdd0fae06c7e976a5a62bc67e7caa6a2e7a231b3c83ec",
+        "sha256_in_prefix": "e24f31e22fba9d8c3b5bdd0fae06c7e976a5a62bc67e7caa6a2e7a231b3c83ec",
+        "size_in_bytes": 6488
+      },
+      {
+        "_path": "site-packages/mizani/external/xkcd_rgb.py",
+        "path_type": "hardlink",
+        "sha256": "83e793cc5fd2bd67e79a5f1d2678557093051d80c3acd8bc6588aa2fc4298b8b",
+        "sha256_in_prefix": "83e793cc5fd2bd67e79a5f1d2678557093051d80c3acd8bc6588aa2fc4298b8b",
+        "size_in_bytes": 28029
+      },
+      {
+        "_path": "site-packages/mizani/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "3336b00b192e8f65c5694bdd470e4175c611f96eeebe5454a2284d2d5553355f",
+        "sha256_in_prefix": "3336b00b192e8f65c5694bdd470e4175c611f96eeebe5454a2284d2d5553355f",
+        "size_in_bytes": 21335
+      },
+      {
+        "_path": "site-packages/mizani/palettes.py",
+        "path_type": "hardlink",
+        "sha256": "13722bf15d9400b9e76124fee9a2769a774bec1361d3999a71cd87138805af1a",
+        "sha256_in_prefix": "13722bf15d9400b9e76124fee9a2769a774bec1361d3999a71cd87138805af1a",
+        "size_in_bytes": 23402
+      },
+      {
+        "_path": "site-packages/mizani/scale.py",
+        "path_type": "hardlink",
+        "sha256": "10df1963c5204549388567357e8eb6c14ef1272ef17ec98b86865ecb730da4e7",
+        "sha256_in_prefix": "10df1963c5204549388567357e8eb6c14ef1272ef17ec98b86865ecb730da4e7",
+        "size_in_bytes": 7437
+      },
+      {
+        "_path": "site-packages/mizani/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "552324156354523af148464ad0366376030097ee4cf7a464caf5cfd387df7b5b",
+        "sha256_in_prefix": "552324156354523af148464ad0366376030097ee4cf7a464caf5cfd387df7b5b",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_bounds.py",
+        "path_type": "hardlink",
+        "sha256": "281315a93117d940886acb717d7dda78238ed4a11c88c804899d1b27e2ec18a8",
+        "sha256_in_prefix": "281315a93117d940886acb717d7dda78238ed4a11c88c804899d1b27e2ec18a8",
+        "size_in_bytes": 13843
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_breaks.py",
+        "path_type": "hardlink",
+        "sha256": "411f8968fcaa77dbe34f320fbdf0fab92a803105cf44aa4f7e8cf7715bae5a7f",
+        "sha256_in_prefix": "411f8968fcaa77dbe34f320fbdf0fab92a803105cf44aa4f7e8cf7715bae5a7f",
+        "size_in_bytes": 8231
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_formatters.py",
+        "path_type": "hardlink",
+        "sha256": "b54a8230dd9124fa4b1c4c2c3bb895beb07f81491452ad35552472325280e93c",
+        "sha256_in_prefix": "b54a8230dd9124fa4b1c4c2c3bb895beb07f81491452ad35552472325280e93c",
+        "size_in_bytes": 6622
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_palettes.py",
+        "path_type": "hardlink",
+        "sha256": "dd693b82653948c034d7c0f8c3468caa7501c92c008b65222cc12b2b2251dd4b",
+        "sha256_in_prefix": "dd693b82653948c034d7c0f8c3468caa7501c92c008b65222cc12b2b2251dd4b",
+        "size_in_bytes": 5547
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_scale.py",
+        "path_type": "hardlink",
+        "sha256": "cdfee0c2acf16083bddd11fc94a9e7af1c8a00e864b6e1a96c3d08328c74b29c",
+        "sha256_in_prefix": "cdfee0c2acf16083bddd11fc94a9e7af1c8a00e864b6e1a96c3d08328c74b29c",
+        "size_in_bytes": 3577
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_transforms.py",
+        "path_type": "hardlink",
+        "sha256": "c91b14d2ceb7d20f261422bbecc5c6eac2f12538d09605ea92ac4d9df966da89",
+        "sha256_in_prefix": "c91b14d2ceb7d20f261422bbecc5c6eac2f12538d09605ea92ac4d9df966da89",
+        "size_in_bytes": 6091
+      },
+      {
+        "_path": "site-packages/mizani/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "eaf9799d677e7f5477cd6c2e1b9396c696452e5ebd398b313e594049f067b260",
+        "sha256_in_prefix": "eaf9799d677e7f5477cd6c2e1b9396c696452e5ebd398b313e594049f067b260",
+        "size_in_bytes": 4277
+      },
+      {
+        "_path": "site-packages/mizani/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "8afa1447c883bb471ec5510e9103db4cb66027793bdfc6578fbabaefa27babd7",
+        "sha256_in_prefix": "8afa1447c883bb471ec5510e9103db4cb66027793bdfc6578fbabaefa27babd7",
+        "size_in_bytes": 20808
+      },
+      {
+        "_path": "site-packages/mizani/utils.py",
+        "path_type": "hardlink",
+        "sha256": "7fb677ad7a92b923beb46704681aa8e46c3aa4d71a58e66cadaf8be057d6f2ca",
+        "sha256_in_prefix": "7fb677ad7a92b923beb46704681aa8e46c3aa4d71a58e66cadaf8be057d6f2ca",
+        "size_in_bytes": 6243
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/_version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/bounds.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/breaks.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/external/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/external/__pycache__/crayon_rgb.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/external/__pycache__/husl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/external/__pycache__/xkcd_rgb.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/formatters.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/palettes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/scale.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_bounds.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_breaks.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_formatters.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_palettes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_scale.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_transforms.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/tests/__pycache__/test_utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/transforms.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mizani/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mizani==0.7.3=pyhd8ed1ab_0",
+  "sha256": "3535151b25f71eb612fe8a934ab1086dd415a8aded96fc2914b4c7083c2397cf",
+  "size": 54171,
+  "subdir": "noarch",
+  "timestamp": 1616598545804,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/mizani-0.7.3-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.7.3"
+}

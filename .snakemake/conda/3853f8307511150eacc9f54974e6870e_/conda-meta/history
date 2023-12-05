@@ -1,0 +1,17 @@
+==> 2023-11-29 13:06:19 <==
+# cmd: /storage/apps/ANACONDA/anaconda3_2023/bin/conda-env create --quiet --file /home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_.yaml --prefix /home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_
+# conda version: 23.5.2
++bioconda/linux-64::ucsc-gtftogenepred-377-h446ed27_3
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-64::libgcc-ng-12.2.0-h65d4601_19
++conda-forge/linux-64::libgomp-12.2.0-h65d4601_19
++conda-forge/linux-64::libpng-1.6.39-h753d276_0
++conda-forge/linux-64::libstdcxx-ng-12.2.0-h46fd767_19
++conda-forge/linux-64::libuuid-2.32.1-h7f98852_1000
++conda-forge/linux-64::libzlib-1.2.13-h166bdaf_4
++conda-forge/linux-64::mysql-connector-c-6.1.11-h876a3cc_1006
++conda-forge/linux-64::zlib-1.2.13-h166bdaf_4
++rmg/linux-64::ca-certificates-2020.6.20-hecda079_0
++rmg/linux-64::openssl-1.1.1g-h516909a_0
+# update specs: ['ca-certificates==2020.6.20=hecda079_0', 'ucsc-gtftogenepred==377=h446ed27_3', 'libpng==1.6.39=h753d276_0', '_openmp_mutex==4.5=2_gnu', 'libzlib==1.2.13=h166bdaf_4', 'mysql-connector-c==6.1.11=h876a3cc_1006', 'openssl==1.1.1g=h516909a_0', 'libstdcxx-ng==12.2.0=h46fd767_19', 'libgomp==12.2.0=h65d4601_19', 'libuuid==2.32.1=h7f98852_1000', 'zlib==1.2.13=h166bdaf_4', '_libgcc_mutex==0.1=conda_forge', 'libgcc-ng==12.2.0=h65d4601_19']

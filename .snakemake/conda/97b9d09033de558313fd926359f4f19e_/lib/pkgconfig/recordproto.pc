@@ -1,0 +1,9 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: RecordProto
+Description: Record extension headers
+Version: 1.14.2
+Cflags: -I${includedir}

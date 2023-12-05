@@ -1,0 +1,13 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/af13a5d71a7b11de5e2b85a9a4f8fc61_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

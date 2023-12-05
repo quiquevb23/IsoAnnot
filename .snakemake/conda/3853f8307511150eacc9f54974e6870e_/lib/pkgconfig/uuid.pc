@@ -1,0 +1,11 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_
+exec_prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_
+libdir=/home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_/lib
+includedir=/home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

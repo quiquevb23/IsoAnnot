@@ -1,0 +1,11 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Damage
+Description: XCB Damage Extension
+Version: 1.13
+Requires.private: xcb xcb-xfixes
+Libs: -L${libdir} -lxcb-damage
+Cflags: -I${includedir}

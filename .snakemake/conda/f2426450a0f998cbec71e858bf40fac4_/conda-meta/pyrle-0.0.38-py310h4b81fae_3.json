@@ -1,0 +1,360 @@
+{
+  "build": "py310h4b81fae_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "natsort",
+    "numpy",
+    "pandas",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "setuptools",
+    "tabulate"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/pyrle-0.0.38-py310h4b81fae_3",
+  "files": [
+    "lib/python3.10/site-packages/graphs/hypothesis-tested-brightgreen.svg",
+    "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/PKG-INFO",
+    "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/SOURCES.txt",
+    "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/dependency_links.txt",
+    "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/requires.txt",
+    "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/top_level.txt",
+    "lib/python3.10/site-packages/pyrle/__init__.py",
+    "lib/python3.10/site-packages/pyrle/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyrle/__pycache__/methods.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyrle/__pycache__/rle.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyrle/__pycache__/rledict.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyrle/methods.py",
+    "lib/python3.10/site-packages/pyrle/rle.py",
+    "lib/python3.10/site-packages/pyrle/rledict.py",
+    "lib/python3.10/site-packages/pyrle/src/__init__.py",
+    "lib/python3.10/site-packages/pyrle/src/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyrle/src/coverage.c",
+    "lib/python3.10/site-packages/pyrle/src/coverage.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/pyrle/src/coverage.pyx",
+    "lib/python3.10/site-packages/pyrle/src/getitem.c",
+    "lib/python3.10/site-packages/pyrle/src/getitem.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/pyrle/src/getitem.pyx",
+    "lib/python3.10/site-packages/pyrle/src/rle.c",
+    "lib/python3.10/site-packages/pyrle/src/rle.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/pyrle/src/rle.pyx",
+    "lib/python3.10/site-packages/tests/__init__.py",
+    "lib/python3.10/site-packages/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tests/__pycache__/helpers.cpython-310.pyc",
+    "lib/python3.10/site-packages/tests/__pycache__/hypothesis_helper.cpython-310.pyc",
+    "lib/python3.10/site-packages/tests/__pycache__/test_hypothesis.cpython-310.pyc",
+    "lib/python3.10/site-packages/tests/__pycache__/test_hypothesis_coverage.cpython-310.pyc",
+    "lib/python3.10/site-packages/tests/__pycache__/test_subset_coverage.cpython-310.pyc",
+    "lib/python3.10/site-packages/tests/compute_Rle.R",
+    "lib/python3.10/site-packages/tests/compute_coverage.R",
+    "lib/python3.10/site-packages/tests/helpers.py",
+    "lib/python3.10/site-packages/tests/hypothesis_helper.py",
+    "lib/python3.10/site-packages/tests/subset_coverage.R",
+    "lib/python3.10/site-packages/tests/test_hypothesis.py",
+    "lib/python3.10/site-packages/tests/test_hypothesis_coverage.py",
+    "lib/python3.10/site-packages/tests/test_subset_coverage.py"
+  ],
+  "fn": "pyrle-0.0.38-py310h4b81fae_3.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/pyrle-0.0.38-py310h4b81fae_3",
+    "type": 1
+  },
+  "md5": "19c11de556d1fe409d32fb633ff97783",
+  "name": "pyrle",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/pyrle-0.0.38-py310h4b81fae_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/graphs/hypothesis-tested-brightgreen.svg",
+        "path_type": "hardlink",
+        "sha256": "917747e4eb80fdbbf4aa98e90ca4b8db8361e743c30826d65197bb3ac5113f10",
+        "sha256_in_prefix": "917747e4eb80fdbbf4aa98e90ca4b8db8361e743c30826d65197bb3ac5113f10",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "4e9f425be6ea13a7c3ef837a5072ebc06a9346868acaa4c017433bf9f3a79ece",
+        "sha256_in_prefix": "4e9f425be6ea13a7c3ef837a5072ebc06a9346868acaa4c017433bf9f3a79ece",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "12784b826b9b99f8fba062548d23bb8b8fc91fddfa57fe527b2fac2c5c7c403a",
+        "sha256_in_prefix": "12784b826b9b99f8fba062548d23bb8b8fc91fddfa57fe527b2fac2c5c7c403a",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "917fa405189ef801b98704981549f3f584f8d3a15384f7c329c99542ed651b83",
+        "sha256_in_prefix": "917fa405189ef801b98704981549f3f584f8d3a15384f7c329c99542ed651b83",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle-0.0.38-py3.10.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "77597c67af7dfecbe51db5c55c3960e43f1ab6bff7d4db88ff2fff27e3f1d232",
+        "sha256_in_prefix": "77597c67af7dfecbe51db5c55c3960e43f1ab6bff7d4db88ff2fff27e3f1d232",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b83e82e1df5a9bab659577726bf23d4c16bcaa18b32f49f5849401c1add03d42",
+        "sha256_in_prefix": "b83e82e1df5a9bab659577726bf23d4c16bcaa18b32f49f5849401c1add03d42",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "55a016c21fac85b96fa527526855b1db4b74b9472f325e5f352e00cfc5fdfbb9",
+        "sha256_in_prefix": "55a016c21fac85b96fa527526855b1db4b74b9472f325e5f352e00cfc5fdfbb9",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/__pycache__/methods.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5895c6a05866e6e1e39a7a9f2ae0b3a33b10f676cf26135a54e78ebc8a67d8c",
+        "sha256_in_prefix": "d5895c6a05866e6e1e39a7a9f2ae0b3a33b10f676cf26135a54e78ebc8a67d8c",
+        "size_in_bytes": 6853
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/__pycache__/rle.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf4b7837c62bac6a04dbd009130e331a802f91ac4a304b9119c9e19be93a3aef",
+        "sha256_in_prefix": "bf4b7837c62bac6a04dbd009130e331a802f91ac4a304b9119c9e19be93a3aef",
+        "size_in_bytes": 32646
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/__pycache__/rledict.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d97eee8c54841ff54375d399f40e83b4f5d66f8904d8924800d5c99e66e5b440",
+        "sha256_in_prefix": "d97eee8c54841ff54375d399f40e83b4f5d66f8904d8924800d5c99e66e5b440",
+        "size_in_bytes": 24325
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/methods.py",
+        "path_type": "hardlink",
+        "sha256": "3210ba0d2619c202c0d039e4457f60706cd7ab74b4f5f6addfa0fadee52ba721",
+        "sha256_in_prefix": "3210ba0d2619c202c0d039e4457f60706cd7ab74b4f5f6addfa0fadee52ba721",
+        "size_in_bytes": 6458
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/rle.py",
+        "path_type": "hardlink",
+        "sha256": "2a02e8501ea4d4d1b0716649548a60dfa15c598eb788835236fcd81f80b93afa",
+        "sha256_in_prefix": "2a02e8501ea4d4d1b0716649548a60dfa15c598eb788835236fcd81f80b93afa",
+        "size_in_bytes": 35182
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/rledict.py",
+        "path_type": "hardlink",
+        "sha256": "6717d1141c9a60385167992fb49186132bf08803125564ec188ad6bdf6f74021",
+        "sha256_in_prefix": "6717d1141c9a60385167992fb49186132bf08803125564ec188ad6bdf6f74021",
+        "size_in_bytes": 25034
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5505c3dc5b5b01d07adac66d60a149f4e452693de64f155d623fafeb90a8f948",
+        "sha256_in_prefix": "5505c3dc5b5b01d07adac66d60a149f4e452693de64f155d623fafeb90a8f948",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/coverage.c",
+        "path_type": "hardlink",
+        "sha256": "03e1defce899b75587ae7aee57aca90a6716047648c2bc3fa9a69e1f86c11545",
+        "sha256_in_prefix": "03e1defce899b75587ae7aee57aca90a6716047648c2bc3fa9a69e1f86c11545",
+        "size_in_bytes": 883918
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/coverage.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "2cc443fd70e3e06f0f1ed822fd24d05fcc64a7b29fbec255996c7016bec119e0",
+        "sha256_in_prefix": "2cc443fd70e3e06f0f1ed822fd24d05fcc64a7b29fbec255996c7016bec119e0",
+        "size_in_bytes": 217256
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/coverage.pyx",
+        "path_type": "hardlink",
+        "sha256": "7d29bf8ea9f05b75ce7aefe0a6b64086dd08026714d7d8dd73026f582b7c5fce",
+        "sha256_in_prefix": "7d29bf8ea9f05b75ce7aefe0a6b64086dd08026714d7d8dd73026f582b7c5fce",
+        "size_in_bytes": 4364
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/getitem.c",
+        "path_type": "hardlink",
+        "sha256": "17fc82dbcaf907866189cf87ccad04ce4dbd7965502d6c5087fe3fc8c8a904ed",
+        "sha256_in_prefix": "17fc82dbcaf907866189cf87ccad04ce4dbd7965502d6c5087fe3fc8c8a904ed",
+        "size_in_bytes": 932638
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/getitem.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d255637d9bb6f98cf6e1b5f6f0f77f2b1af1f01b15ccd0e549b615a278b76ef0",
+        "sha256_in_prefix": "d255637d9bb6f98cf6e1b5f6f0f77f2b1af1f01b15ccd0e549b615a278b76ef0",
+        "size_in_bytes": 223584
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/getitem.pyx",
+        "path_type": "hardlink",
+        "sha256": "a2ceeb3db0a951402720a8f54830f802082a20c1646b793b1f9dfe19a95b7c5d",
+        "sha256_in_prefix": "a2ceeb3db0a951402720a8f54830f802082a20c1646b793b1f9dfe19a95b7c5d",
+        "size_in_bytes": 8987
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/rle.c",
+        "path_type": "hardlink",
+        "sha256": "5a6f8b19cd1610e4f7d738771658e11454ea816eef387bae7c914904df2221e2",
+        "sha256_in_prefix": "5a6f8b19cd1610e4f7d738771658e11454ea816eef387bae7c914904df2221e2",
+        "size_in_bytes": 917596
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/rle.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d475f88522c3c477345908344994f8cf3eca35e6676415eeae0edf9322c35b63",
+        "sha256_in_prefix": "d475f88522c3c477345908344994f8cf3eca35e6676415eeae0edf9322c35b63",
+        "size_in_bytes": 200696
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyrle/src/rle.pyx",
+        "path_type": "hardlink",
+        "sha256": "9a6cf1f32fa67ec3887d9e80134a773d13df5da0604c48f2706d4396306bbea6",
+        "sha256_in_prefix": "9a6cf1f32fa67ec3887d9e80134a773d13df5da0604c48f2706d4396306bbea6",
+        "size_in_bytes": 8675
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b7ccdbc2642cfc69e67542eb5dc06f99e54dbe7da639387ac53584c3dca8b07",
+        "sha256_in_prefix": "3b7ccdbc2642cfc69e67542eb5dc06f99e54dbe7da639387ac53584c3dca8b07",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__pycache__/helpers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "62cae6bd98dbaf7014855725118e2082157fcac480264b78199a03c7c96ee698",
+        "sha256_in_prefix": "62cae6bd98dbaf7014855725118e2082157fcac480264b78199a03c7c96ee698",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__pycache__/hypothesis_helper.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6cba6c3d51b566da42a84c4da04c496cda2ef05b5b5c10cea6a008aedc91bc3",
+        "sha256_in_prefix": "e6cba6c3d51b566da42a84c4da04c496cda2ef05b5b5c10cea6a008aedc91bc3",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__pycache__/test_hypothesis.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b5e76b2c9d341976168d94c1d631d51f0b802e46d3646cea980cd0c8e2c2256",
+        "sha256_in_prefix": "9b5e76b2c9d341976168d94c1d631d51f0b802e46d3646cea980cd0c8e2c2256",
+        "size_in_bytes": 3753
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__pycache__/test_hypothesis_coverage.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1f9500cb61c007dc2318573108f3a7ed17638bb8aa3a673543a18cf5c8ecceb",
+        "sha256_in_prefix": "d1f9500cb61c007dc2318573108f3a7ed17638bb8aa3a673543a18cf5c8ecceb",
+        "size_in_bytes": 2270
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/__pycache__/test_subset_coverage.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c3290944a1e6f849aced30ff6abe0b5d84bda9653bbd464e4c172d09300cf92",
+        "sha256_in_prefix": "8c3290944a1e6f849aced30ff6abe0b5d84bda9653bbd464e4c172d09300cf92",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/compute_Rle.R",
+        "path_type": "hardlink",
+        "sha256": "15abacfb51c503c180d6f1a195ae1241a1bf0617ad88f73207dd4ea06763f734",
+        "sha256_in_prefix": "15abacfb51c503c180d6f1a195ae1241a1bf0617ad88f73207dd4ea06763f734",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/compute_coverage.R",
+        "path_type": "hardlink",
+        "sha256": "334d6b5756f9f394dbe1b7f312279c84181d4fb8bb2e133c3121f18ee60bc510",
+        "sha256_in_prefix": "334d6b5756f9f394dbe1b7f312279c84181d4fb8bb2e133c3121f18ee60bc510",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "ccb24245f5d79ab3aad4781375346c12f205e61d5d8db18b4f9a9e6fba6e10df",
+        "sha256_in_prefix": "ccb24245f5d79ab3aad4781375346c12f205e61d5d8db18b4f9a9e6fba6e10df",
+        "size_in_bytes": 1513
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/hypothesis_helper.py",
+        "path_type": "hardlink",
+        "sha256": "dc024e8c003fca398e3bccbf90c057349439057775cb2d017e80b1c539547077",
+        "sha256_in_prefix": "dc024e8c003fca398e3bccbf90c057349439057775cb2d017e80b1c539547077",
+        "size_in_bytes": 3161
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/subset_coverage.R",
+        "path_type": "hardlink",
+        "sha256": "429f0aaba1ea14abd1c938cfd6f5864fe3fd34ad5c094e88725fa284ed34a685",
+        "sha256_in_prefix": "429f0aaba1ea14abd1c938cfd6f5864fe3fd34ad5c094e88725fa284ed34a685",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/test_hypothesis.py",
+        "path_type": "hardlink",
+        "sha256": "5869c71b11ee9e38299a6566e694bfc9e0c770c882f0885f49a8b4f67410cfea",
+        "sha256_in_prefix": "5869c71b11ee9e38299a6566e694bfc9e0c770c882f0885f49a8b4f67410cfea",
+        "size_in_bytes": 4699
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/test_hypothesis_coverage.py",
+        "path_type": "hardlink",
+        "sha256": "82c054663a7d2df756e94b17f5e154b2030f883c18f1ca2f1ff0fbf23b109186",
+        "sha256_in_prefix": "82c054663a7d2df756e94b17f5e154b2030f883c18f1ca2f1ff0fbf23b109186",
+        "size_in_bytes": 2730
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tests/test_subset_coverage.py",
+        "path_type": "hardlink",
+        "sha256": "7cd36dd380dd55f41cf590d138b11904fe4f1ac519512d8353d440545cc1975b",
+        "sha256_in_prefix": "7cd36dd380dd55f41cf590d138b11904fe4f1ac519512d8353d440545cc1975b",
+        "size_in_bytes": 3472
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyrle==0.0.38=py310h4b81fae_3",
+  "sha256": "f3390bfebbe8cc7c6764701881a59f69ab58ed20afe6395cb38ff875815835c0",
+  "size": 469966,
+  "subdir": "linux-64",
+  "timestamp": 1686043962611,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pyrle-0.0.38-py310h4b81fae_3.tar.bz2",
+  "version": "0.0.38"
+}

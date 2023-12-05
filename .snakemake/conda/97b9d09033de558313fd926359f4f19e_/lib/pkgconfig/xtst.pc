@@ -1,0 +1,12 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xtst
+Description: The Xtst Library
+Version: 1.2.3
+Requires: recordproto
+Requires.private: x11 xext xextproto xi
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXtst

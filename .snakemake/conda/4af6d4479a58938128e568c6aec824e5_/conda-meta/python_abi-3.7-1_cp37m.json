@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "build": "1_cp37m",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/rmg/linux-64",
+  "constrains": [
+    "pypy <0a0"
+  ],
+  "depends": [
+    "python 3.7.*"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/python_abi-3.7-1_cp37m",
+  "files": [],
+  "fn": "python_abi-3.7-1_cp37m.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/python_abi-3.7-1_cp37m",
+    "type": 1
+  },
+  "md5": "658a5c3d766bfc6574480204b10a6f20",
+  "name": "python_abi",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/python_abi-3.7-1_cp37m.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "python_abi==3.7=1_cp37m",
+  "size": 3779,
+  "subdir": "linux-64",
+  "timestamp": 1583344659579,
+  "url": "https://conda.anaconda.org/rmg/linux-64/python_abi-3.7-1_cp37m.tar.bz2",
+  "version": "3.7"
+}

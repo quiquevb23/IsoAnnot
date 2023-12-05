@@ -1,0 +1,1439 @@
+{
+  "build": "py37h8270d21_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bedtools",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "pandas",
+    "pysam >=0.8.1",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "six",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/pybedtools-0.8.1-py37h8270d21_2",
+  "files": [
+    "bin/annotate.py",
+    "bin/intersection_matrix.py",
+    "bin/intron_exon_reads.py",
+    "bin/pbt_plotting_example.py",
+    "bin/peak_pie.py",
+    "bin/pybedtools",
+    "bin/venn_gchart.py",
+    "bin/venn_mpl.py",
+    "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/pybedtools/_Window.pyx",
+    "lib/python3.7/site-packages/pybedtools/__init__.py",
+    "lib/python3.7/site-packages/pybedtools/__main__.py",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/bedtool.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/filenames.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/genome_registry.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/logger.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/parallel.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/paths.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/settings.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/stats.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/bedtool.py",
+    "lib/python3.7/site-packages/pybedtools/cbedtools.cpp",
+    "lib/python3.7/site-packages/pybedtools/cbedtools.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pybedtools/cbedtools.pxd",
+    "lib/python3.7/site-packages/pybedtools/cbedtools.pyx",
+    "lib/python3.7/site-packages/pybedtools/contrib/__init__.py",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/bigbed.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/bigwig.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/intersection_matrix.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/long_range_interaction.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/plotting.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/venn_maker.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/contrib/bigbed.py",
+    "lib/python3.7/site-packages/pybedtools/contrib/bigwig.py",
+    "lib/python3.7/site-packages/pybedtools/contrib/intersection_matrix.py",
+    "lib/python3.7/site-packages/pybedtools/contrib/long_range_interaction.py",
+    "lib/python3.7/site-packages/pybedtools/contrib/plotting.py",
+    "lib/python3.7/site-packages/pybedtools/contrib/venn_maker.py",
+    "lib/python3.7/site-packages/pybedtools/featurefuncs.cpp",
+    "lib/python3.7/site-packages/pybedtools/featurefuncs.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pybedtools/featurefuncs.pyx",
+    "lib/python3.7/site-packages/pybedtools/filenames.py",
+    "lib/python3.7/site-packages/pybedtools/genome_registry.py",
+    "lib/python3.7/site-packages/pybedtools/helpers.py",
+    "lib/python3.7/site-packages/pybedtools/include/bedFile.cpp",
+    "lib/python3.7/site-packages/pybedtools/include/fileType.cpp",
+    "lib/python3.7/site-packages/pybedtools/include/gzstream.cpp",
+    "lib/python3.7/site-packages/pybedtools/logger.py",
+    "lib/python3.7/site-packages/pybedtools/parallel.py",
+    "lib/python3.7/site-packages/pybedtools/paths.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/__init__.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/annotate.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/intersection_matrix.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/intron_exon_reads.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/peak_pie.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/py_ms_example.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/venn_gchart.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/venn_mpl.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/annotate.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/examples/__pycache__/pbt_plotting_example.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/scripts/examples/pbt_plotting_example.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/intersection_matrix.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/intron_exon_reads.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/peak_pie.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/py_ms_example.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/pybedtools",
+    "lib/python3.7/site-packages/pybedtools/scripts/venn_gchart.py",
+    "lib/python3.7/site-packages/pybedtools/scripts/venn_mpl.py",
+    "lib/python3.7/site-packages/pybedtools/settings.py",
+    "lib/python3.7/site-packages/pybedtools/stats.py",
+    "lib/python3.7/site-packages/pybedtools/test/__init__.py",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/regression_tests.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_1.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_cbedtools.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_contrib.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_gzip_support.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_issues.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_iter.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_len_leak.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_pathlib.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_scripts.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/__pycache__/tfuncs.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/data/1000genomes-example.vcf",
+    "lib/python3.7/site-packages/pybedtools/test/data/164.gtf",
+    "lib/python3.7/site-packages/pybedtools/test/data/BEAF_Kc_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/BEAF_Mbn2_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/CTCF_Kc_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/CTCF_Mbn2_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/Cp190_Kc_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/Cp190_Mbn2_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/SuHw_Kc_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/SuHw_Mbn2_Bushey_2009.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/__init__.py",
+    "lib/python3.7/site-packages/pybedtools/test/data/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pybedtools/test/data/a.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/a.igv_script",
+    "lib/python3.7/site-packages/pybedtools/test/data/a.links.html",
+    "lib/python3.7/site-packages/pybedtools/test/data/b.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/bedpe.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/bedpe2.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/c.gff",
+    "lib/python3.7/site-packages/pybedtools/test/data/d.gff",
+    "lib/python3.7/site-packages/pybedtools/test/data/democonfig.yaml",
+    "lib/python3.7/site-packages/pybedtools/test/data/dm3-chr2L-5M-invalid.gff.gz",
+    "lib/python3.7/site-packages/pybedtools/test/data/dm3-chr2L-5M.gff.gz",
+    "lib/python3.7/site-packages/pybedtools/test/data/exons.gff",
+    "lib/python3.7/site-packages/pybedtools/test/data/expand_test.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.1.100.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.1.100.bam.bai",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.50.200.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.50.200.bam.bai",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.cram",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.gff",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.gff.gz",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.othersort.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.sorted.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/gdc.sorted.bam.bai",
+    "lib/python3.7/site-packages/pybedtools/test/data/hg19.gff",
+    "lib/python3.7/site-packages/pybedtools/test/data/hg38-base.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/hg38-problem.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/issue_121.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/m1.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/mm9.bed12",
+    "lib/python3.7/site-packages/pybedtools/test/data/multibamcov_test.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/reads.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/rmsk.hg18.chr21.small.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/rmsk.hg18.chr21.small.bed.gz",
+    "lib/python3.7/site-packages/pybedtools/test/data/small.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/small.fastq",
+    "lib/python3.7/site-packages/pybedtools/test/data/snps.bed.gz",
+    "lib/python3.7/site-packages/pybedtools/test/data/tag_test1.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/tag_test2.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/test.fa",
+    "lib/python3.7/site-packages/pybedtools/test/data/test.fa.fai",
+    "lib/python3.7/site-packages/pybedtools/test/data/test_bedpe.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/test_peaks.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/test_tsses.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/v.vcf",
+    "lib/python3.7/site-packages/pybedtools/test/data/vcf-stderr-test.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/vcf-stderr-test.vcf",
+    "lib/python3.7/site-packages/pybedtools/test/data/venn.b.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/venn.c.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/x.bam",
+    "lib/python3.7/site-packages/pybedtools/test/data/x.bed",
+    "lib/python3.7/site-packages/pybedtools/test/data/y.bam",
+    "lib/python3.7/site-packages/pybedtools/test/regression_tests.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_1.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_cbedtools.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_contrib.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_gzip_support.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_helpers.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_issues.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_iter.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_len_leak.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_pathlib.py",
+    "lib/python3.7/site-packages/pybedtools/test/test_scripts.py",
+    "lib/python3.7/site-packages/pybedtools/test/tfuncs.py",
+    "lib/python3.7/site-packages/pybedtools/version.py"
+  ],
+  "fn": "pybedtools-0.8.1-py37h8270d21_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/pybedtools-0.8.1-py37h8270d21_2",
+    "type": 1
+  },
+  "md5": "4a390079b49e99e1e9d2803e51b6da96",
+  "name": "pybedtools",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/pybedtools-0.8.1-py37h8270d21_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/annotate.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "9ab62c65d5932591dd59d440eb04194f95a7fd370044af22a322d1e034406bf1",
+        "sha256_in_prefix": "e02c6cdf58c6ce1857077ddacdd721a3f31c99ba7b37798eb53e8a1acd6da9aa",
+        "size_in_bytes": 5048
+      },
+      {
+        "_path": "bin/intersection_matrix.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "1508b89238523fc8ad97b43b499a393e67a7bd07d047f5dbd2df5533d338fc6e",
+        "sha256_in_prefix": "23d50b2a9776be9c48536a503fbf07255fe45ed296a463b56acb659849eaa9bd",
+        "size_in_bytes": 5276
+      },
+      {
+        "_path": "bin/intron_exon_reads.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "c181192e149739ef29ad1e161091fda84b20a444ee553d8f72466b6246e337e9",
+        "sha256_in_prefix": "4750ab1de9e3aa4f383966a80dc648709bdc39d248d7f2dfdee170828ee07b02",
+        "size_in_bytes": 3811
+      },
+      {
+        "_path": "bin/pbt_plotting_example.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "bede4fc7fd0db698670aa546cf5c5525e26cd6dfe82eadba48e1da499efa686a",
+        "sha256_in_prefix": "ad9120fe8e0f6ffd1f47aadc23d263d183288a29b71562cb4c1c11fae10d88a7",
+        "size_in_bytes": 3500
+      },
+      {
+        "_path": "bin/peak_pie.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "189f997ad64b3f06c2716da6e943aa3d0b59a1812b4963bb756ddca2a3fa174d",
+        "sha256_in_prefix": "26f5bf21460e5c6012a6fcd204624bc2e8ad6c34e2a6df8b14fd419a5a7ba242",
+        "size_in_bytes": 5673
+      },
+      {
+        "_path": "bin/pybedtools",
+        "path_type": "hardlink",
+        "sha256": "f71e6833975fc21c1842de5bb574225edb41fbe51092488eebd5444585e780e2",
+        "sha256_in_prefix": "f71e6833975fc21c1842de5bb574225edb41fbe51092488eebd5444585e780e2",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "bin/venn_gchart.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "f4920a350ce0046ff966fe5fdeb3011f64d372cbfa501361dfae6f3234927cf0",
+        "sha256_in_prefix": "fb28fc62e6ac92cf0088f1cf944750be447313e7a59e49bbe04573109eaeadb6",
+        "size_in_bytes": 4570
+      },
+      {
+        "_path": "bin/venn_mpl.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pybedtools_1594431769231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "cca1d4066e07c956645c52bede4f7e127d0055f1756f63410cdc7f84f1f9239d",
+        "sha256_in_prefix": "3bc0db344c84892ff760d4d9cf19ed073c40ffcf62b4e885461cf21972cfded8",
+        "size_in_bytes": 5446
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "2a5e1c162bffc482d0d22e9c0da6210fafe0b13846f3dbd1c3552d1a0709788a",
+        "sha256_in_prefix": "2a5e1c162bffc482d0d22e9c0da6210fafe0b13846f3dbd1c3552d1a0709788a",
+        "size_in_bytes": 4056
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "861c88b9318dd76266ebbdc0754104bf03ced1c66f54cd525f97150cc90681de",
+        "sha256_in_prefix": "861c88b9318dd76266ebbdc0754104bf03ced1c66f54cd525f97150cc90681de",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "5a28f1af11b3c0ca0819a4ebe2c6108705be109582015c76eafac5c2daf923c5",
+        "sha256_in_prefix": "5a28f1af11b3c0ca0819a4ebe2c6108705be109582015c76eafac5c2daf923c5",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools-0.8.1-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ffe36ed758ac05ae09749a34509896746efe4c55e759482cac083f08bf481fff",
+        "sha256_in_prefix": "ffe36ed758ac05ae09749a34509896746efe4c55e759482cac083f08bf481fff",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/_Window.pyx",
+        "path_type": "hardlink",
+        "sha256": "72c68e2539d89487a830d795c28a5857342e038d6a9af448fc1c19d70b5c1825",
+        "sha256_in_prefix": "72c68e2539d89487a830d795c28a5857342e038d6a9af448fc1c19d70b5c1825",
+        "size_in_bytes": 7588
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "14ccf75aa7522b01f1d30bb90f4a1a1bb3c5034c9b304787920cac4895c38708",
+        "sha256_in_prefix": "14ccf75aa7522b01f1d30bb90f4a1a1bb3c5034c9b304787920cac4895c38708",
+        "size_in_bytes": 4035
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "be57357c041998859cc665e780a4bf905f6d75db32189bf7a3e89dfb48409e92",
+        "sha256_in_prefix": "be57357c041998859cc665e780a4bf905f6d75db32189bf7a3e89dfb48409e92",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "13dd6c3a4ea28960675853292d38848333b0b9d97fa544641a371f061f5dde22",
+        "sha256_in_prefix": "13dd6c3a4ea28960675853292d38848333b0b9d97fa544641a371f061f5dde22",
+        "size_in_bytes": 4064
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/__main__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "430a945b2f1dea3818b1693206d6de3d5850d4c113ddb02949e2878334b6859a",
+        "sha256_in_prefix": "430a945b2f1dea3818b1693206d6de3d5850d4c113ddb02949e2878334b6859a",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/bedtool.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e16fc32fe2642e930792b4a3858f316f6d402347028cef9b08b8d25b050551bd",
+        "sha256_in_prefix": "e16fc32fe2642e930792b4a3858f316f6d402347028cef9b08b8d25b050551bd",
+        "size_in_bytes": 104142
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/filenames.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6592fa415873f6cabaf3169a3d5fa60169a2ebab0857a4044d47e8828a9133a",
+        "sha256_in_prefix": "b6592fa415873f6cabaf3169a3d5fa60169a2ebab0857a4044d47e8828a9133a",
+        "size_in_bytes": 1768
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/genome_registry.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d67874af5e11c2b9fb844763655be000d59b1a1bad090cba58a51ebc247f884",
+        "sha256_in_prefix": "2d67874af5e11c2b9fb844763655be000d59b1a1bad090cba58a51ebc247f884",
+        "size_in_bytes": 87092
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/helpers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "18ef562c21ab6572a706c770b88ab2fa6ec5a787175de94077da80a4ed38ce8f",
+        "sha256_in_prefix": "18ef562c21ab6572a706c770b88ab2fa6ec5a787175de94077da80a4ed38ce8f",
+        "size_in_bytes": 21081
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/logger.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d95216cb2da076a10d4189dba22dd824ff2e8d987b3a6c4c7d8854af42b186c",
+        "sha256_in_prefix": "6d95216cb2da076a10d4189dba22dd824ff2e8d987b3a6c4c7d8854af42b186c",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/parallel.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "71680a99051973ed65ecd02d051505c0d26c664c946c50a43ee5ab49ab6f2c9b",
+        "sha256_in_prefix": "71680a99051973ed65ecd02d051505c0d26c664c946c50a43ee5ab49ab6f2c9b",
+        "size_in_bytes": 6998
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/paths.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf2410fc8553751139931bc4ec29a28073c248312f4aaa946ffe1d100fdb7019",
+        "sha256_in_prefix": "bf2410fc8553751139931bc4ec29a28073c248312f4aaa946ffe1d100fdb7019",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/settings.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "00ca50c86380b04e9f65caa99bd245b9b18de25bcc381defdbadbf82436a15d6",
+        "sha256_in_prefix": "00ca50c86380b04e9f65caa99bd245b9b18de25bcc381defdbadbf82436a15d6",
+        "size_in_bytes": 1787
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/stats.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "00169db52c56ec100a5bd1dd16a82889c493222783ee0f36e11462f941e91b91",
+        "sha256_in_prefix": "00169db52c56ec100a5bd1dd16a82889c493222783ee0f36e11462f941e91b91",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9541f0b520a74e48f05993f316a2823588f0ce71ac93b39ce187de978ec9d12",
+        "sha256_in_prefix": "b9541f0b520a74e48f05993f316a2823588f0ce71ac93b39ce187de978ec9d12",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/bedtool.py",
+        "path_type": "hardlink",
+        "sha256": "036abb577cb2911220cfb3de4eb10a09a8af07008dc3ceca29b77bc03a6ca38c",
+        "sha256_in_prefix": "036abb577cb2911220cfb3de4eb10a09a8af07008dc3ceca29b77bc03a6ca38c",
+        "size_in_bytes": 132745
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/cbedtools.cpp",
+        "path_type": "hardlink",
+        "sha256": "d3696c5d69d4a78cbe6fb0c65426258eea8f4b777c0a118bb2f37b979e4acd54",
+        "sha256_in_prefix": "d3696c5d69d4a78cbe6fb0c65426258eea8f4b777c0a118bb2f37b979e4acd54",
+        "size_in_bytes": 928351
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/cbedtools.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "1634d3cba5aeaf9b82a993b9dbc0838e5d6654ed88cd5df11c7538d568e42719",
+        "sha256_in_prefix": "1634d3cba5aeaf9b82a993b9dbc0838e5d6654ed88cd5df11c7538d568e42719",
+        "size_in_bytes": 404824
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/cbedtools.pxd",
+        "path_type": "hardlink",
+        "sha256": "d1b9a2026ae831c00494a54886d870f4c07b2dd5674953b61642f205f4c6d4fd",
+        "sha256_in_prefix": "d1b9a2026ae831c00494a54886d870f4c07b2dd5674953b61642f205f4c6d4fd",
+        "size_in_bytes": 2653
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/cbedtools.pyx",
+        "path_type": "hardlink",
+        "sha256": "190976526bfa9291bb1551bf492c43a669d81599b85595cb9f30c0040ae5442e",
+        "sha256_in_prefix": "190976526bfa9291bb1551bf492c43a669d81599b85595cb9f30c0040ae5442e",
+        "size_in_bytes": 31701
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "77678c428fc536baf248b14969f898ff8457922d29af22d77140ed5ce1448253",
+        "sha256_in_prefix": "77678c428fc536baf248b14969f898ff8457922d29af22d77140ed5ce1448253",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "45a67f332d02250597ab4bcdbdf799894303a0bd126ea77c5b3b375aaffb222e",
+        "sha256_in_prefix": "45a67f332d02250597ab4bcdbdf799894303a0bd126ea77c5b3b375aaffb222e",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/bigbed.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ae84cfd581912e1233dd9a44c8afcab0613f5adc88f568ebd17514626124fca",
+        "sha256_in_prefix": "5ae84cfd581912e1233dd9a44c8afcab0613f5adc88f568ebd17514626124fca",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/bigwig.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "87d8cbbc0f4aee9840832b4c2c0a6cd9c710b298e9715944fc56c9cee1efc25d",
+        "sha256_in_prefix": "87d8cbbc0f4aee9840832b4c2c0a6cd9c710b298e9715944fc56c9cee1efc25d",
+        "size_in_bytes": 4794
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/intersection_matrix.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5dab726cb281d0e5fdb4736a6a4aee788a94ca9b1fcf2964eb78e7cca395b50",
+        "sha256_in_prefix": "d5dab726cb281d0e5fdb4736a6a4aee788a94ca9b1fcf2964eb78e7cca395b50",
+        "size_in_bytes": 7668
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/long_range_interaction.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1dbb5eb725222ea02ec3f498c1b57ccd0a59960a1f39f19244f485ef358a831",
+        "sha256_in_prefix": "c1dbb5eb725222ea02ec3f498c1b57ccd0a59960a1f39f19244f485ef358a831",
+        "size_in_bytes": 15332
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/plotting.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d84685fb6869899dc17c0a32e5fab7d706386c357d236a6d9510e6e276a10fa",
+        "sha256_in_prefix": "0d84685fb6869899dc17c0a32e5fab7d706386c357d236a6d9510e6e276a10fa",
+        "size_in_bytes": 16010
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/__pycache__/venn_maker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e9a387d0454a2c626df1f80c682f697b1c89d311518a46546adada954b1af1b",
+        "sha256_in_prefix": "3e9a387d0454a2c626df1f80c682f697b1c89d311518a46546adada954b1af1b",
+        "size_in_bytes": 6475
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/bigbed.py",
+        "path_type": "hardlink",
+        "sha256": "8a3609355e874703f3a508c7fabc6eef2b49c58057d7361dea892a3df2617479",
+        "sha256_in_prefix": "8a3609355e874703f3a508c7fabc6eef2b49c58057d7361dea892a3df2617479",
+        "size_in_bytes": 2296
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/bigwig.py",
+        "path_type": "hardlink",
+        "sha256": "76bcb97a4b8243d0c2dede02f0aaf65e860cba6a1d53c0635729e9ef035e0e9f",
+        "sha256_in_prefix": "76bcb97a4b8243d0c2dede02f0aaf65e860cba6a1d53c0635729e9ef035e0e9f",
+        "size_in_bytes": 6128
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/intersection_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "cf6815778d86c09ad043457c7b981af1417ab639863351c5e7575c299a492792",
+        "sha256_in_prefix": "cf6815778d86c09ad043457c7b981af1417ab639863351c5e7575c299a492792",
+        "size_in_bytes": 7563
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/long_range_interaction.py",
+        "path_type": "hardlink",
+        "sha256": "6b25e46e4e826aa8fa6358550552ec0f91b9748940dd3825768e508a0ecc8706",
+        "sha256_in_prefix": "6b25e46e4e826aa8fa6358550552ec0f91b9748940dd3825768e508a0ecc8706",
+        "size_in_bytes": 16535
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "0395d8899666b7751ea35648acd7c61d141d99a07bf9b4c9d3c451ecad0e3aba",
+        "sha256_in_prefix": "0395d8899666b7751ea35648acd7c61d141d99a07bf9b4c9d3c451ecad0e3aba",
+        "size_in_bytes": 19828
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/contrib/venn_maker.py",
+        "path_type": "hardlink",
+        "sha256": "7b48802eea19af9c33e616a89b7717cb06395b8df69b28e65557a70e1113591e",
+        "sha256_in_prefix": "7b48802eea19af9c33e616a89b7717cb06395b8df69b28e65557a70e1113591e",
+        "size_in_bytes": 7660
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/featurefuncs.cpp",
+        "path_type": "hardlink",
+        "sha256": "5e38079173cf459137c27b8255a65746a361d4c72e233984cc6e5fd4f73a5417",
+        "sha256_in_prefix": "5e38079173cf459137c27b8255a65746a361d4c72e233984cc6e5fd4f73a5417",
+        "size_in_bytes": 435543
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/featurefuncs.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5cb523e60409c7a0646f660e301add729b63d5b83c23515ef9684135d12da9fb",
+        "sha256_in_prefix": "5cb523e60409c7a0646f660e301add729b63d5b83c23515ef9684135d12da9fb",
+        "size_in_bytes": 219864
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/featurefuncs.pyx",
+        "path_type": "hardlink",
+        "sha256": "3ebdc1959c3f249650291ca86fe3ec90be178b08738f81daf88f4f7124a41573",
+        "sha256_in_prefix": "3ebdc1959c3f249650291ca86fe3ec90be178b08738f81daf88f4f7124a41573",
+        "size_in_bytes": 10685
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/filenames.py",
+        "path_type": "hardlink",
+        "sha256": "eebba01c178effc9849e40f975e8c75db9197661eedb97f559160f82cedbdad5",
+        "sha256_in_prefix": "eebba01c178effc9849e40f975e8c75db9197661eedb97f559160f82cedbdad5",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/genome_registry.py",
+        "path_type": "hardlink",
+        "sha256": "bdf38f9292110c3a2ab082df2903062ea7386f596829341c7e589245a1debe05",
+        "sha256_in_prefix": "bdf38f9292110c3a2ab082df2903062ea7386f596829341c7e589245a1debe05",
+        "size_in_bytes": 112873
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "16b0b31bb6f22b07e2f0c965a8fc5d6425ef3360b6d3d0ff22a990a651d28be6",
+        "sha256_in_prefix": "16b0b31bb6f22b07e2f0c965a8fc5d6425ef3360b6d3d0ff22a990a651d28be6",
+        "size_in_bytes": 25199
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/include/bedFile.cpp",
+        "path_type": "hardlink",
+        "sha256": "de62ec375a7b5944192f4a9bad61d5e61b5f99118fb7a5662665716949253a07",
+        "sha256_in_prefix": "de62ec375a7b5944192f4a9bad61d5e61b5f99118fb7a5662665716949253a07",
+        "size_in_bytes": 14207
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/include/fileType.cpp",
+        "path_type": "hardlink",
+        "sha256": "2584edf9be6c36dc82d5ebd860be3785d29de978e8b3a4c1f4bd2a1560046f93",
+        "sha256_in_prefix": "2584edf9be6c36dc82d5ebd860be3785d29de978e8b3a4c1f4bd2a1560046f93",
+        "size_in_bytes": 1746
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/include/gzstream.cpp",
+        "path_type": "hardlink",
+        "sha256": "f58c69c9d0aa17a256e17aab250f4f68c8d768ba16e3c93cc21e2e0392d3ee52",
+        "sha256_in_prefix": "f58c69c9d0aa17a256e17aab250f4f68c8d768ba16e3c93cc21e2e0392d3ee52",
+        "size_in_bytes": 5093
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/logger.py",
+        "path_type": "hardlink",
+        "sha256": "a8b32745231cc2a08d08614e3e466eec8daa7a593c28d26d6c9495a91a36eff9",
+        "sha256_in_prefix": "a8b32745231cc2a08d08614e3e466eec8daa7a593c28d26d6c9495a91a36eff9",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "3ec810f160848e62d6e2142e4f090a0450ca863a8c709815c859dcc1708b69a3",
+        "sha256_in_prefix": "3ec810f160848e62d6e2142e4f090a0450ca863a8c709815c859dcc1708b69a3",
+        "size_in_bytes": 7811
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/paths.py",
+        "path_type": "hardlink",
+        "sha256": "b54d84956f72025752ec6758342192ff21bb06b5fc2594f4743295fab7605e14",
+        "sha256_in_prefix": "b54d84956f72025752ec6758342192ff21bb06b5fc2594f4743295fab7605e14",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7f00aa47f452907f0807879dd35551459f803dcf49d5eaea6a5ffbd6053f3df3",
+        "sha256_in_prefix": "7f00aa47f452907f0807879dd35551459f803dcf49d5eaea6a5ffbd6053f3df3",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a1aaeedc79d4c0006c3fc585ca6a295bd2e775191dc67ca59cead291dc5e06a",
+        "sha256_in_prefix": "7a1aaeedc79d4c0006c3fc585ca6a295bd2e775191dc67ca59cead291dc5e06a",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/annotate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d63698e1b6231dc6b77a5f7f62988e5a7eb3c47ef8438ff8071db05200e9729",
+        "sha256_in_prefix": "0d63698e1b6231dc6b77a5f7f62988e5a7eb3c47ef8438ff8071db05200e9729",
+        "size_in_bytes": 4276
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/intersection_matrix.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "407dc1452f1745de9e0efc36a6830793fb0f04e67186d2d7a75f35e6904273d9",
+        "sha256_in_prefix": "407dc1452f1745de9e0efc36a6830793fb0f04e67186d2d7a75f35e6904273d9",
+        "size_in_bytes": 4473
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/intron_exon_reads.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "86490945752141b43375f34806738d94e6a3320af91aac4348706c77604d35a0",
+        "sha256_in_prefix": "86490945752141b43375f34806738d94e6a3320af91aac4348706c77604d35a0",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/peak_pie.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "59c55106bb3b0b0ea3b7c6d36eba4c6c4d81112e14ac822270797ccd968415a4",
+        "sha256_in_prefix": "59c55106bb3b0b0ea3b7c6d36eba4c6c4d81112e14ac822270797ccd968415a4",
+        "size_in_bytes": 4188
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/py_ms_example.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "54a0b892a692d7db92038dc1cdf4d7497988ff8fab49bbaae113b131f67021b6",
+        "sha256_in_prefix": "54a0b892a692d7db92038dc1cdf4d7497988ff8fab49bbaae113b131f67021b6",
+        "size_in_bytes": 894
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/venn_gchart.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f66ba50cb5ad39c8c4ecea35b6668f33caaac685b63be21be4fa636517bddbb8",
+        "sha256_in_prefix": "f66ba50cb5ad39c8c4ecea35b6668f33caaac685b63be21be4fa636517bddbb8",
+        "size_in_bytes": 3635
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/__pycache__/venn_mpl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1be1f9efcb81d970358553821af58360e18aa205c9dc728e98f9593b822cb25e",
+        "sha256_in_prefix": "1be1f9efcb81d970358553821af58360e18aa205c9dc728e98f9593b822cb25e",
+        "size_in_bytes": 4302
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/annotate.py",
+        "path_type": "hardlink",
+        "sha256": "f1d837432f44873c512f41deaf2645412f1437d6ebb09c3954aeda4ade4e8c8e",
+        "sha256_in_prefix": "f1d837432f44873c512f41deaf2645412f1437d6ebb09c3954aeda4ade4e8c8e",
+        "size_in_bytes": 4801
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/examples/__pycache__/pbt_plotting_example.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bedd54c8aa1759843f812ab1135f0420a4d92771741d006cd9d86241567c470",
+        "sha256_in_prefix": "4bedd54c8aa1759843f812ab1135f0420a4d92771741d006cd9d86241567c470",
+        "size_in_bytes": 3470
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/examples/pbt_plotting_example.py",
+        "path_type": "hardlink",
+        "sha256": "d9608c6b3b5d09725af25760cc1d5c6a1522c60634520e09fc07f3fbbb6f7bc4",
+        "sha256_in_prefix": "d9608c6b3b5d09725af25760cc1d5c6a1522c60634520e09fc07f3fbbb6f7bc4",
+        "size_in_bytes": 3253
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/intersection_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "6fb7f93110647267af020d2c3dc49ea9df728af6b5c79a718f0b1abd2fe864fe",
+        "sha256_in_prefix": "6fb7f93110647267af020d2c3dc49ea9df728af6b5c79a718f0b1abd2fe864fe",
+        "size_in_bytes": 5025
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/intron_exon_reads.py",
+        "path_type": "hardlink",
+        "sha256": "f69b2edd32b35d5d3fcba28b0ddd1027c462001374ccc7024c8072441ddc021d",
+        "sha256_in_prefix": "f69b2edd32b35d5d3fcba28b0ddd1027c462001374ccc7024c8072441ddc021d",
+        "size_in_bytes": 3564
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/peak_pie.py",
+        "path_type": "hardlink",
+        "sha256": "e9cc9d7a883a976c00a134bb112f892f05a4a9a0db25f1777ca3d99b08150b07",
+        "sha256_in_prefix": "e9cc9d7a883a976c00a134bb112f892f05a4a9a0db25f1777ca3d99b08150b07",
+        "size_in_bytes": 5426
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/py_ms_example.py",
+        "path_type": "hardlink",
+        "sha256": "bd7736ca00e585f8c105c316c01cd621248f82117ff304c3a291a15ab552e37a",
+        "sha256_in_prefix": "bd7736ca00e585f8c105c316c01cd621248f82117ff304c3a291a15ab552e37a",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/pybedtools",
+        "path_type": "hardlink",
+        "sha256": "f71e6833975fc21c1842de5bb574225edb41fbe51092488eebd5444585e780e2",
+        "sha256_in_prefix": "f71e6833975fc21c1842de5bb574225edb41fbe51092488eebd5444585e780e2",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/venn_gchart.py",
+        "path_type": "hardlink",
+        "sha256": "d8834f378546cb999c951981c0074f85b0a61e4025bfbcfe738b1a2c7ab0a867",
+        "sha256_in_prefix": "d8834f378546cb999c951981c0074f85b0a61e4025bfbcfe738b1a2c7ab0a867",
+        "size_in_bytes": 4323
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/scripts/venn_mpl.py",
+        "path_type": "hardlink",
+        "sha256": "e026dfd440a80fc5f25f5977a0c933a4d22fd826573240396e11d99bc7d0e906",
+        "sha256_in_prefix": "e026dfd440a80fc5f25f5977a0c933a4d22fd826573240396e11d99bc7d0e906",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/settings.py",
+        "path_type": "hardlink",
+        "sha256": "ccf4837c5b7051ca76490b61d81721f733f3df8b5e760150a994637274f0ba42",
+        "sha256_in_prefix": "ccf4837c5b7051ca76490b61d81721f733f3df8b5e760150a994637274f0ba42",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/stats.py",
+        "path_type": "hardlink",
+        "sha256": "1c60695db484a993b1ae483f373479ad893276815995d46831e74963b90841de",
+        "sha256_in_prefix": "1c60695db484a993b1ae483f373479ad893276815995d46831e74963b90841de",
+        "size_in_bytes": 818
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4fdb4d85fa9a72d7f358bee6e247f0505add18f787a59d45cec56241f160fecb",
+        "sha256_in_prefix": "4fdb4d85fa9a72d7f358bee6e247f0505add18f787a59d45cec56241f160fecb",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "faec5a338740d3f84ffbfb5e5fe874b2beb1e22d9bc65ec7658bd9da1cb450a6",
+        "sha256_in_prefix": "faec5a338740d3f84ffbfb5e5fe874b2beb1e22d9bc65ec7658bd9da1cb450a6",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/regression_tests.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a6ed2406195e95c80d6f35f54f7c5ace9e47e8526a137d44bf5ae3a0a60e836",
+        "sha256_in_prefix": "0a6ed2406195e95c80d6f35f54f7c5ace9e47e8526a137d44bf5ae3a0a60e836",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_1.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "256c2ce8e0070fe2c39cb3b428c795e03d434d05dabdb0131560569de44f9b22",
+        "sha256_in_prefix": "256c2ce8e0070fe2c39cb3b428c795e03d434d05dabdb0131560569de44f9b22",
+        "size_in_bytes": 46106
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_cbedtools.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "630982025bdce6f85bdbf0a3314dc1662f1eaef2738e8eca78418a9dafbfa8f8",
+        "sha256_in_prefix": "630982025bdce6f85bdbf0a3314dc1662f1eaef2738e8eca78418a9dafbfa8f8",
+        "size_in_bytes": 11624
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_contrib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "99ade32169d09f66d5b4ac1f8068675c9d4255d48e1d92aaf864319e51df4e90",
+        "sha256_in_prefix": "99ade32169d09f66d5b4ac1f8068675c9d4255d48e1d92aaf864319e51df4e90",
+        "size_in_bytes": 3569
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_gzip_support.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e89cee36559adffe3b9baeec694ca3579ac3b9f4b44e223928d72e1805eab03d",
+        "sha256_in_prefix": "e89cee36559adffe3b9baeec694ca3579ac3b9f4b44e223928d72e1805eab03d",
+        "size_in_bytes": 3645
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_helpers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0fd1696fd00f6dc6c3ef3fe596728906b42a70ea74bda5cf45f0a3faf9eb342e",
+        "sha256_in_prefix": "0fd1696fd00f6dc6c3ef3fe596728906b42a70ea74bda5cf45f0a3faf9eb342e",
+        "size_in_bytes": 4581
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_issues.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff7a5c202036a8992cb5ed5a471b344e957ae6715ccd797633c82649be4af73c",
+        "sha256_in_prefix": "ff7a5c202036a8992cb5ed5a471b344e957ae6715ccd797633c82649be4af73c",
+        "size_in_bytes": 20996
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_iter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e85e0e8fe6a142028e657f01b18be180f424fa56adfe1c24e15adffbec5ebcb",
+        "sha256_in_prefix": "2e85e0e8fe6a142028e657f01b18be180f424fa56adfe1c24e15adffbec5ebcb",
+        "size_in_bytes": 5234
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_len_leak.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4200a03fa125c2974488f0b766b40e8e9e4e8180964cef33a52dd70483e305e",
+        "sha256_in_prefix": "d4200a03fa125c2974488f0b766b40e8e9e4e8180964cef33a52dd70483e305e",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_pathlib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ff8aa6d91aa4148c5ec8aeaf0eed0f06961cd30fa728e26dba213ff03a4fa13",
+        "sha256_in_prefix": "7ff8aa6d91aa4148c5ec8aeaf0eed0f06961cd30fa728e26dba213ff03a4fa13",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/test_scripts.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccbe020bca739a05621614dcbd35aea01bc12050f76c2edeba7862152cdf6a76",
+        "sha256_in_prefix": "ccbe020bca739a05621614dcbd35aea01bc12050f76c2edeba7862152cdf6a76",
+        "size_in_bytes": 5145
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/__pycache__/tfuncs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "80ea3c34ef154244ba0cf677314e1e3c462985c20bb99f291f6da57d3a7c3c16",
+        "sha256_in_prefix": "80ea3c34ef154244ba0cf677314e1e3c462985c20bb99f291f6da57d3a7c3c16",
+        "size_in_bytes": 734
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/1000genomes-example.vcf",
+        "path_type": "hardlink",
+        "sha256": "307cbe008a432efe2302d257d953be14a4d8f475102b4de7eadb61f3c5460f55",
+        "sha256_in_prefix": "307cbe008a432efe2302d257d953be14a4d8f475102b4de7eadb61f3c5460f55",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/164.gtf",
+        "path_type": "hardlink",
+        "sha256": "10081b3c44912520da53cd22396d6667bb9db68cd5361e9cb6014a7b5a83eedc",
+        "sha256_in_prefix": "10081b3c44912520da53cd22396d6667bb9db68cd5361e9cb6014a7b5a83eedc",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/BEAF_Kc_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "abf0512422d3c8b9f84fcb96c14858f6d5114b6ad9d64b11678142172d79f340",
+        "sha256_in_prefix": "abf0512422d3c8b9f84fcb96c14858f6d5114b6ad9d64b11678142172d79f340",
+        "size_in_bytes": 68290
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/BEAF_Mbn2_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "2fe7d67d55e7838f62950121a175136ff4958eacb037d4f9160da903cbf40624",
+        "sha256_in_prefix": "2fe7d67d55e7838f62950121a175136ff4958eacb037d4f9160da903cbf40624",
+        "size_in_bytes": 68576
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/CTCF_Kc_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "0fae763c2b73bac8af987b3695735fe5cbb48afa91b127c38dde00a2f981749c",
+        "sha256_in_prefix": "0fae763c2b73bac8af987b3695735fe5cbb48afa91b127c38dde00a2f981749c",
+        "size_in_bytes": 51786
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/CTCF_Mbn2_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "8c6d2bf546d7580a50b5cf1bfbe9ac3e79343ea1e89b1a771b682027a3dec427",
+        "sha256_in_prefix": "8c6d2bf546d7580a50b5cf1bfbe9ac3e79343ea1e89b1a771b682027a3dec427",
+        "size_in_bytes": 65175
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/Cp190_Kc_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "7e4a43ce36306631a9af3116c23a350f1797b4122f971188643e572ca9ef2db7",
+        "sha256_in_prefix": "7e4a43ce36306631a9af3116c23a350f1797b4122f971188643e572ca9ef2db7",
+        "size_in_bytes": 120207
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/Cp190_Mbn2_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "839d90a98444bee56812688447295db6059229353af198cf76599ae870450faa",
+        "sha256_in_prefix": "839d90a98444bee56812688447295db6059229353af198cf76599ae870450faa",
+        "size_in_bytes": 118800
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/SuHw_Kc_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "edbc73dd0805529145cf9bd0d477f7a922f3bcd196fdc49c6043cae97eb26e26",
+        "sha256_in_prefix": "edbc73dd0805529145cf9bd0d477f7a922f3bcd196fdc49c6043cae97eb26e26",
+        "size_in_bytes": 85595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/SuHw_Mbn2_Bushey_2009.bed",
+        "path_type": "hardlink",
+        "sha256": "13fc2b52dbd0905991a8c2eed00a10a85899446f9a414cc6de582056af8ded73",
+        "sha256_in_prefix": "13fc2b52dbd0905991a8c2eed00a10a85899446f9a414cc6de582056af8ded73",
+        "size_in_bytes": 79506
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bab5f1cfee6f8941b49d38db95d6e9a1d4a2d4252e44d930509c8f2d8c27926b",
+        "sha256_in_prefix": "bab5f1cfee6f8941b49d38db95d6e9a1d4a2d4252e44d930509c8f2d8c27926b",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/a.bed",
+        "path_type": "hardlink",
+        "sha256": "df7de0e6da525af78aa381e8ce2c008c1bb1c3aa0ac357e2461151708e4714c6",
+        "sha256_in_prefix": "df7de0e6da525af78aa381e8ce2c008c1bb1c3aa0ac357e2461151708e4714c6",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/a.igv_script",
+        "path_type": "hardlink",
+        "sha256": "9dd5a31ba88a29ce99d98dec9cdb763eb7635dc2c32a30b773def899b4dc452a",
+        "sha256_in_prefix": "9dd5a31ba88a29ce99d98dec9cdb763eb7635dc2c32a30b773def899b4dc452a",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/a.links.html",
+        "path_type": "hardlink",
+        "sha256": "c7188b0b5f789448f9ad4306994e96ccf2af0079e9fd4044fa00036eb1bcb957",
+        "sha256_in_prefix": "c7188b0b5f789448f9ad4306994e96ccf2af0079e9fd4044fa00036eb1bcb957",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/b.bed",
+        "path_type": "hardlink",
+        "sha256": "ac8acc59a14f690e0cb0f26cca3e5fae503119b94989e5060e5325ab99840f3a",
+        "sha256_in_prefix": "ac8acc59a14f690e0cb0f26cca3e5fae503119b94989e5060e5325ab99840f3a",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/bedpe.bed",
+        "path_type": "hardlink",
+        "sha256": "498ce836588455098e29da43ab3f7772fbc5bd4ce541776280f6752df9a8bb21",
+        "sha256_in_prefix": "498ce836588455098e29da43ab3f7772fbc5bd4ce541776280f6752df9a8bb21",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/bedpe2.bed",
+        "path_type": "hardlink",
+        "sha256": "e31dc1e1838ffb9e557466eae91a9d99dee15adf805f87f758f12bd316819346",
+        "sha256_in_prefix": "e31dc1e1838ffb9e557466eae91a9d99dee15adf805f87f758f12bd316819346",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/c.gff",
+        "path_type": "hardlink",
+        "sha256": "bb82114cdef80feedae24e5f4c31ebc6cebfa36e99347a4c6420f71826412d3b",
+        "sha256_in_prefix": "bb82114cdef80feedae24e5f4c31ebc6cebfa36e99347a4c6420f71826412d3b",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/d.gff",
+        "path_type": "hardlink",
+        "sha256": "2ec603585e2f7ac9cc5c04dcde7001895916393b20227b67fa0823a88f82afcf",
+        "sha256_in_prefix": "2ec603585e2f7ac9cc5c04dcde7001895916393b20227b67fa0823a88f82afcf",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/democonfig.yaml",
+        "path_type": "hardlink",
+        "sha256": "889a021767b2e12b30a9c30434fe7eb9ecb82a023ee5bf632a309024a7377a60",
+        "sha256_in_prefix": "889a021767b2e12b30a9c30434fe7eb9ecb82a023ee5bf632a309024a7377a60",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/dm3-chr2L-5M-invalid.gff.gz",
+        "path_type": "hardlink",
+        "sha256": "6fe09f8541346f7ea88cbea9e68e3b8568049398855bac4592145b22e6c367b0",
+        "sha256_in_prefix": "6fe09f8541346f7ea88cbea9e68e3b8568049398855bac4592145b22e6c367b0",
+        "size_in_bytes": 415008
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/dm3-chr2L-5M.gff.gz",
+        "path_type": "hardlink",
+        "sha256": "2e622bf71902388a24e09fd278f504f651b05e9e0cb12e99dac3ef18892f7bb3",
+        "sha256_in_prefix": "2e622bf71902388a24e09fd278f504f651b05e9e0cb12e99dac3ef18892f7bb3",
+        "size_in_bytes": 414961
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/exons.gff",
+        "path_type": "hardlink",
+        "sha256": "49ffd0885dc902b57c887d4b5d2ab488673a3be51246eaaee43c917645f0a590",
+        "sha256_in_prefix": "49ffd0885dc902b57c887d4b5d2ab488673a3be51246eaaee43c917645f0a590",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/expand_test.bed",
+        "path_type": "hardlink",
+        "sha256": "ea002cd8f52e9005b688428e99b269246abf80b1cdb3a98027b41cadbad3cf8f",
+        "sha256_in_prefix": "ea002cd8f52e9005b688428e99b269246abf80b1cdb3a98027b41cadbad3cf8f",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.1.100.bam",
+        "path_type": "hardlink",
+        "sha256": "a6c94a6dd478dd230aae6eef7722f8dfce500eaae752d200a1d5d557baf365db",
+        "sha256_in_prefix": "a6c94a6dd478dd230aae6eef7722f8dfce500eaae752d200a1d5d557baf365db",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.1.100.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "205a837b407da6a5ccb4b003a30851455b92feee7b7e7f3c9854e556c2051d56",
+        "sha256_in_prefix": "205a837b407da6a5ccb4b003a30851455b92feee7b7e7f3c9854e556c2051d56",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.50.200.bam",
+        "path_type": "hardlink",
+        "sha256": "6b986bc16eaf80b396427d78a0ec760902f5c8b11c8801a8f6edd06cc3beee29",
+        "sha256_in_prefix": "6b986bc16eaf80b396427d78a0ec760902f5c8b11c8801a8f6edd06cc3beee29",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.50.200.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "aef68d1e490834e36595521c5e9e3eba045505545dda8294360904b2686b89a3",
+        "sha256_in_prefix": "aef68d1e490834e36595521c5e9e3eba045505545dda8294360904b2686b89a3",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.bam",
+        "path_type": "hardlink",
+        "sha256": "d19c2e83f4fca4d325b5788c8e95c45a3724a5b3e4adca10c21d57b2f0c1e88d",
+        "sha256_in_prefix": "d19c2e83f4fca4d325b5788c8e95c45a3724a5b3e4adca10c21d57b2f0c1e88d",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.bed",
+        "path_type": "hardlink",
+        "sha256": "e3475e534ccfa7a994ba87c75d5071f6c5fc6dd778fcf83171a51dbcce4b6f0d",
+        "sha256_in_prefix": "e3475e534ccfa7a994ba87c75d5071f6c5fc6dd778fcf83171a51dbcce4b6f0d",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.cram",
+        "path_type": "hardlink",
+        "sha256": "13725b2dbaf666245eaff41f6675d0c7b0b30a2f4b42eb797070a5f6d337b5d6",
+        "sha256_in_prefix": "13725b2dbaf666245eaff41f6675d0c7b0b30a2f4b42eb797070a5f6d337b5d6",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.gff",
+        "path_type": "hardlink",
+        "sha256": "7936bed41af593f98e01f4fc555f11db5b12d3842563a762188cb9a7cb79f36e",
+        "sha256_in_prefix": "7936bed41af593f98e01f4fc555f11db5b12d3842563a762188cb9a7cb79f36e",
+        "size_in_bytes": 734
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.gff.gz",
+        "path_type": "hardlink",
+        "sha256": "05c0bcfab4c41cb6ff771347ee75df3ab1aca6c09956d07552e7c7aeaba2b145",
+        "sha256_in_prefix": "05c0bcfab4c41cb6ff771347ee75df3ab1aca6c09956d07552e7c7aeaba2b145",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.othersort.bam",
+        "path_type": "hardlink",
+        "sha256": "ccf7b83f453d08297dbbc4e0b2e954ad727189ce847351dff21d0db9dd1dfb3c",
+        "sha256_in_prefix": "ccf7b83f453d08297dbbc4e0b2e954ad727189ce847351dff21d0db9dd1dfb3c",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.sorted.bam",
+        "path_type": "hardlink",
+        "sha256": "f3d8407a18bb4308ff00bc9130a3e083acf85eb5bf1f789f8b4dc3779bf99fc0",
+        "sha256_in_prefix": "f3d8407a18bb4308ff00bc9130a3e083acf85eb5bf1f789f8b4dc3779bf99fc0",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/gdc.sorted.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "18bbb4c4a8bfcfb6ce001ceb3634b0d116803c4e08f616af21fca0331b2e7c43",
+        "sha256_in_prefix": "18bbb4c4a8bfcfb6ce001ceb3634b0d116803c4e08f616af21fca0331b2e7c43",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/hg19.gff",
+        "path_type": "hardlink",
+        "sha256": "3824863e11eb0dcf39481b1569271edb6525d9aed982b5d19863ab90005aafee",
+        "sha256_in_prefix": "3824863e11eb0dcf39481b1569271edb6525d9aed982b5d19863ab90005aafee",
+        "size_in_bytes": 223374
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/hg38-base.bed",
+        "path_type": "hardlink",
+        "sha256": "c2bd0b92e67986f34ad591d0e3ffbe507813653fc8c2e7acb00866457096e947",
+        "sha256_in_prefix": "c2bd0b92e67986f34ad591d0e3ffbe507813653fc8c2e7acb00866457096e947",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/hg38-problem.bed",
+        "path_type": "hardlink",
+        "sha256": "1b8435de73ee907460f2021a9709f28526d4e93250b0610726e1ece25c25b24d",
+        "sha256_in_prefix": "1b8435de73ee907460f2021a9709f28526d4e93250b0610726e1ece25c25b24d",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/issue_121.bam",
+        "path_type": "hardlink",
+        "sha256": "d79110f6f96181e8ee18760a2642d3aec50cf6de4eeb84dfbcb5c60e7b920419",
+        "sha256_in_prefix": "d79110f6f96181e8ee18760a2642d3aec50cf6de4eeb84dfbcb5c60e7b920419",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/m1.bed",
+        "path_type": "hardlink",
+        "sha256": "21503439484d2fe9867c3715d632fa13da7e72c129b3f2756b879bc800f0c7d7",
+        "sha256_in_prefix": "21503439484d2fe9867c3715d632fa13da7e72c129b3f2756b879bc800f0c7d7",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/mm9.bed12",
+        "path_type": "hardlink",
+        "sha256": "01357cea25bccc0ba2d2cb260abd6c29a61854134241823ee5fdfd09ae5a7f13",
+        "sha256_in_prefix": "01357cea25bccc0ba2d2cb260abd6c29a61854134241823ee5fdfd09ae5a7f13",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/multibamcov_test.bed",
+        "path_type": "hardlink",
+        "sha256": "a230d514d49204307ad4520b6e2f99ca24f3b47afdd714e3efbefacaf4b7fd2b",
+        "sha256_in_prefix": "a230d514d49204307ad4520b6e2f99ca24f3b47afdd714e3efbefacaf4b7fd2b",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/reads.bam",
+        "path_type": "hardlink",
+        "sha256": "a0f256ebb97c0116b873198d4784893d44e69a05ceedb8e51ec86c1f18da404e",
+        "sha256_in_prefix": "a0f256ebb97c0116b873198d4784893d44e69a05ceedb8e51ec86c1f18da404e",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/rmsk.hg18.chr21.small.bed",
+        "path_type": "hardlink",
+        "sha256": "30952ad95a8fe3360fcc45b59a7b6ba089d8d16d70ada8940ed256cfba528416",
+        "sha256_in_prefix": "30952ad95a8fe3360fcc45b59a7b6ba089d8d16d70ada8940ed256cfba528416",
+        "size_in_bytes": 36494
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/rmsk.hg18.chr21.small.bed.gz",
+        "path_type": "hardlink",
+        "sha256": "663c3d531ed10e3679bafd2b1e60b289015ffa5ebbf8ff369a1629e9d8e05d7e",
+        "sha256_in_prefix": "663c3d531ed10e3679bafd2b1e60b289015ffa5ebbf8ff369a1629e9d8e05d7e",
+        "size_in_bytes": 11233
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/small.bam",
+        "path_type": "hardlink",
+        "sha256": "ccbe22ea49a30250eedfa14f176e88fb6619d2a8f0a351143fc13ff34159b0bf",
+        "sha256_in_prefix": "ccbe22ea49a30250eedfa14f176e88fb6619d2a8f0a351143fc13ff34159b0bf",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/small.fastq",
+        "path_type": "hardlink",
+        "sha256": "b521e1c817caa3f1b121da57e727b141e2a3c936c90735bf2e128cdc2ccf2cad",
+        "sha256_in_prefix": "b521e1c817caa3f1b121da57e727b141e2a3c936c90735bf2e128cdc2ccf2cad",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/snps.bed.gz",
+        "path_type": "hardlink",
+        "sha256": "aaf91585fcef14214781752d705c18cdf351e24e36677b76345cb39b184af252",
+        "sha256_in_prefix": "aaf91585fcef14214781752d705c18cdf351e24e36677b76345cb39b184af252",
+        "size_in_bytes": 8474386
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/tag_test1.bed",
+        "path_type": "hardlink",
+        "sha256": "b1a8f5b35d5cc9baab9e60dfe16be4bdef1f362939e63eb1f7ad3d1fec86b4ac",
+        "sha256_in_prefix": "b1a8f5b35d5cc9baab9e60dfe16be4bdef1f362939e63eb1f7ad3d1fec86b4ac",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/tag_test2.bed",
+        "path_type": "hardlink",
+        "sha256": "f9f8fa2270d9b38df5689f0291ec917258dcf32736cd78322128a3dbd1193882",
+        "sha256_in_prefix": "f9f8fa2270d9b38df5689f0291ec917258dcf32736cd78322128a3dbd1193882",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/test.fa",
+        "path_type": "hardlink",
+        "sha256": "2169fd5912cff9b396972ee7a4a879dcf6d70467e730299ca9d70dcc7cd7c3cd",
+        "sha256_in_prefix": "2169fd5912cff9b396972ee7a4a879dcf6d70467e730299ca9d70dcc7cd7c3cd",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/test.fa.fai",
+        "path_type": "hardlink",
+        "sha256": "a294379496b0b8814820d05ea1c24722a8d88eefeed6661b0b79d9aa7c00ac9d",
+        "sha256_in_prefix": "a294379496b0b8814820d05ea1c24722a8d88eefeed6661b0b79d9aa7c00ac9d",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/test_bedpe.bed",
+        "path_type": "hardlink",
+        "sha256": "4d0fd3c6a2f3357458ea49ddc0a41abdbe91f845f46705c027fffc4bfc10996c",
+        "sha256_in_prefix": "4d0fd3c6a2f3357458ea49ddc0a41abdbe91f845f46705c027fffc4bfc10996c",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/test_peaks.bed",
+        "path_type": "hardlink",
+        "sha256": "47ba25edb0cfcc127655bf8ee50ce059b681413fdb0ae20e40108be306f8631b",
+        "sha256_in_prefix": "47ba25edb0cfcc127655bf8ee50ce059b681413fdb0ae20e40108be306f8631b",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/test_tsses.bed",
+        "path_type": "hardlink",
+        "sha256": "64b7066e894bfa8353050ca59e746cbfc0d5198a4e0dcff9913664fc44ba41f8",
+        "sha256_in_prefix": "64b7066e894bfa8353050ca59e746cbfc0d5198a4e0dcff9913664fc44ba41f8",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/v.vcf",
+        "path_type": "hardlink",
+        "sha256": "6028f564767f6378ab2f057815a3204f88b6fdeb8d8db8a2cd2f0e83506e3ec8",
+        "sha256_in_prefix": "6028f564767f6378ab2f057815a3204f88b6fdeb8d8db8a2cd2f0e83506e3ec8",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/vcf-stderr-test.bed",
+        "path_type": "hardlink",
+        "sha256": "bf5428c08f048ff179b5c880713e000c595c8009c46a8f4015a1b2ce220cf23b",
+        "sha256_in_prefix": "bf5428c08f048ff179b5c880713e000c595c8009c46a8f4015a1b2ce220cf23b",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/vcf-stderr-test.vcf",
+        "path_type": "hardlink",
+        "sha256": "6a4413d2e3d5ed60e44b4f383b9f6c4291c8caf67abdc8d64aa16280033e65af",
+        "sha256_in_prefix": "6a4413d2e3d5ed60e44b4f383b9f6c4291c8caf67abdc8d64aa16280033e65af",
+        "size_in_bytes": 6165
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/venn.b.bed",
+        "path_type": "hardlink",
+        "sha256": "f9f9ae26c97cfbe42296b04a3110d33b7bf0a1e09e5261bb9585f795266cabe1",
+        "sha256_in_prefix": "f9f9ae26c97cfbe42296b04a3110d33b7bf0a1e09e5261bb9585f795266cabe1",
+        "size_in_bytes": 4573
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/venn.c.bed",
+        "path_type": "hardlink",
+        "sha256": "c51c21bfac6f7d9a460b8b6f727a752feac52089a6a6ffcab10f8a2b2068dcdf",
+        "sha256_in_prefix": "c51c21bfac6f7d9a460b8b6f727a752feac52089a6a6ffcab10f8a2b2068dcdf",
+        "size_in_bytes": 7169
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/x.bam",
+        "path_type": "hardlink",
+        "sha256": "a7869fc9f391574d8076c40f53a456f6d2f500d233b76ab430b2b78040e78a7c",
+        "sha256_in_prefix": "a7869fc9f391574d8076c40f53a456f6d2f500d233b76ab430b2b78040e78a7c",
+        "size_in_bytes": 1932594
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/x.bed",
+        "path_type": "hardlink",
+        "sha256": "63a526ea45f9e6af78bc397016555d512cce463d0b9c181cd3e62b321dbd4298",
+        "sha256_in_prefix": "63a526ea45f9e6af78bc397016555d512cce463d0b9c181cd3e62b321dbd4298",
+        "size_in_bytes": 2521633
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/data/y.bam",
+        "path_type": "hardlink",
+        "sha256": "7b4623be55649e61cd1d004b0710054971b7236d9eb4e70bf20060baae6627a8",
+        "sha256_in_prefix": "7b4623be55649e61cd1d004b0710054971b7236d9eb4e70bf20060baae6627a8",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/regression_tests.py",
+        "path_type": "hardlink",
+        "sha256": "fd92c04199abd4499f966d93ac2dfcb3a0e6aae64ee9699df4e31a780c5e0eac",
+        "sha256_in_prefix": "fd92c04199abd4499f966d93ac2dfcb3a0e6aae64ee9699df4e31a780c5e0eac",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_1.py",
+        "path_type": "hardlink",
+        "sha256": "0b18a152b39183cdae6c3f3c11b7ff33af3080e6a064bf30cac1c6bdf5ebcfa3",
+        "sha256_in_prefix": "0b18a152b39183cdae6c3f3c11b7ff33af3080e6a064bf30cac1c6bdf5ebcfa3",
+        "size_in_bytes": 55110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_cbedtools.py",
+        "path_type": "hardlink",
+        "sha256": "018dbaf38ff2f7513ab3f1adb8470bf4fa4ba0976fa3a10fbce91de0c14ae325",
+        "sha256_in_prefix": "018dbaf38ff2f7513ab3f1adb8470bf4fa4ba0976fa3a10fbce91de0c14ae325",
+        "size_in_bytes": 12670
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_contrib.py",
+        "path_type": "hardlink",
+        "sha256": "729af69f9adfb2a0b9f0aba342ffc37024fc42bf180cb52f26932bac37e9a8ed",
+        "sha256_in_prefix": "729af69f9adfb2a0b9f0aba342ffc37024fc42bf180cb52f26932bac37e9a8ed",
+        "size_in_bytes": 6105
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_gzip_support.py",
+        "path_type": "hardlink",
+        "sha256": "bf7c39e2454cf5536ce290f483500e7c79c507519b7433f1d397983b65fd765f",
+        "sha256_in_prefix": "bf7c39e2454cf5536ce290f483500e7c79c507519b7433f1d397983b65fd765f",
+        "size_in_bytes": 3892
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "2e76220806ec28a15bffdb936988bdc7e825c1cb599d436c810a8f3219749401",
+        "sha256_in_prefix": "2e76220806ec28a15bffdb936988bdc7e825c1cb599d436c810a8f3219749401",
+        "size_in_bytes": 5926
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_issues.py",
+        "path_type": "hardlink",
+        "sha256": "1241a227a4cf6d1608939d9d96438f9fed65f50176fe929ca426125a01d9014c",
+        "sha256_in_prefix": "1241a227a4cf6d1608939d9d96438f9fed65f50176fe929ca426125a01d9014c",
+        "size_in_bytes": 25323
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_iter.py",
+        "path_type": "hardlink",
+        "sha256": "2ef40d2df8e634d21bd6714a500f8b31ffb2467bb1f6d6713bd78236d0103ebb",
+        "sha256_in_prefix": "2ef40d2df8e634d21bd6714a500f8b31ffb2467bb1f6d6713bd78236d0103ebb",
+        "size_in_bytes": 7355
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_len_leak.py",
+        "path_type": "hardlink",
+        "sha256": "b79b518a4c5289e9985fd573b06fcb2d64a824a1152eba88fd71cbf59278499d",
+        "sha256_in_prefix": "b79b518a4c5289e9985fd573b06fcb2d64a824a1152eba88fd71cbf59278499d",
+        "size_in_bytes": 1422
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_pathlib.py",
+        "path_type": "hardlink",
+        "sha256": "7f501ce9cca12c0637f2a8d65590961a4ea82bb8948d0f376482838aeeee54a1",
+        "sha256_in_prefix": "7f501ce9cca12c0637f2a8d65590961a4ea82bb8948d0f376482838aeeee54a1",
+        "size_in_bytes": 844
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/test_scripts.py",
+        "path_type": "hardlink",
+        "sha256": "288fc05328e7bb6cd9ba9b6410760bf0d8cb8f14ff477eb4605d1c60540c5041",
+        "sha256_in_prefix": "288fc05328e7bb6cd9ba9b6410760bf0d8cb8f14ff477eb4605d1c60540c5041",
+        "size_in_bytes": 5944
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/test/tfuncs.py",
+        "path_type": "hardlink",
+        "sha256": "3f7e3aa3ae53b2e07ade2b628c7ba7da029d2390019fa87ca82de6de241d7510",
+        "sha256_in_prefix": "3f7e3aa3ae53b2e07ade2b628c7ba7da029d2390019fa87ca82de6de241d7510",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pybedtools/version.py",
+        "path_type": "hardlink",
+        "sha256": "9f0e15d5382935f74a15d3711f0fbd79c13051f87080f9315a5dd403aaf6b2c5",
+        "sha256_in_prefix": "9f0e15d5382935f74a15d3711f0fbd79c13051f87080f9315a5dd403aaf6b2c5",
+        "size_in_bytes": 79
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pybedtools==0.8.1=py37h8270d21_2",
+  "sha256": "20a924d6ac263670da53714db56b877971b38ec98abe90c2a5f096112dbf7136",
+  "size": 12687123,
+  "subdir": "linux-64",
+  "timestamp": 1594432307912,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pybedtools-0.8.1-py37h8270d21_2.tar.bz2",
+  "version": "0.8.1"
+}

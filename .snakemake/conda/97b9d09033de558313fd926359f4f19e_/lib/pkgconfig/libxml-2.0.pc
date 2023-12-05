@@ -1,0 +1,13 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.3
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_/lib -lz -L/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_/lib -llzma  -L/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_/lib -liconv -L/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_/lib -licui18n -licuuc -licudata -lm  
+Cflags: -I${includedir}/libxml2 -I/home/quiquevb/IsoAnnot/.snakemake/conda/97b9d09033de558313fd926359f4f19e_/include 

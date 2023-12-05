@@ -1,0 +1,2512 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/rmg/linux-64",
+  "constrains": [],
+  "date": "2015-09-09",
+  "depends": [
+    "freetype",
+    "libpng",
+    "zlib"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/graphviz-2.38.0-0",
+  "files": [
+    "bin/acyclic",
+    "bin/bcomps",
+    "bin/ccomps",
+    "bin/circo",
+    "bin/cluster",
+    "bin/dijkstra",
+    "bin/dot",
+    "bin/dot2gxl",
+    "bin/dot_builtins",
+    "bin/edgepaint",
+    "bin/fdp",
+    "bin/gc",
+    "bin/gml2gv",
+    "bin/graphml2gv",
+    "bin/gv2gml",
+    "bin/gv2gxl",
+    "bin/gvcolor",
+    "bin/gvgen",
+    "bin/gvmap",
+    "bin/gvmap.sh",
+    "bin/gvpack",
+    "bin/gvpr",
+    "bin/gxl2dot",
+    "bin/gxl2gv",
+    "bin/mm2gv",
+    "bin/neato",
+    "bin/nop",
+    "bin/osage",
+    "bin/patchwork",
+    "bin/prune",
+    "bin/sccmap",
+    "bin/sfdp",
+    "bin/tred",
+    "bin/twopi",
+    "bin/unflatten",
+    "include/graphviz/arith.h",
+    "include/graphviz/cdt.h",
+    "include/graphviz/cgraph.h",
+    "include/graphviz/color.h",
+    "include/graphviz/geom.h",
+    "include/graphviz/graphviz_version.h",
+    "include/graphviz/gv.cpp",
+    "include/graphviz/gv.i",
+    "include/graphviz/gvc.h",
+    "include/graphviz/gvcext.h",
+    "include/graphviz/gvcjob.h",
+    "include/graphviz/gvcommon.h",
+    "include/graphviz/gvconfig.h",
+    "include/graphviz/gvplugin.h",
+    "include/graphviz/gvplugin_device.h",
+    "include/graphviz/gvplugin_layout.h",
+    "include/graphviz/gvplugin_loadimage.h",
+    "include/graphviz/gvplugin_render.h",
+    "include/graphviz/gvplugin_textlayout.h",
+    "include/graphviz/gvpr.h",
+    "include/graphviz/pack.h",
+    "include/graphviz/pathgeom.h",
+    "include/graphviz/pathplan.h",
+    "include/graphviz/textspan.h",
+    "include/graphviz/types.h",
+    "include/graphviz/usershape.h",
+    "include/graphviz/xdot.h",
+    "lib/graphviz/config6",
+    "lib/graphviz/libgvplugin_core.la",
+    "lib/graphviz/libgvplugin_core.so",
+    "lib/graphviz/libgvplugin_core.so.6",
+    "lib/graphviz/libgvplugin_core.so.6.0.0",
+    "lib/graphviz/libgvplugin_dot_layout.la",
+    "lib/graphviz/libgvplugin_dot_layout.so",
+    "lib/graphviz/libgvplugin_dot_layout.so.6",
+    "lib/graphviz/libgvplugin_dot_layout.so.6.0.0",
+    "lib/graphviz/libgvplugin_neato_layout.la",
+    "lib/graphviz/libgvplugin_neato_layout.so",
+    "lib/graphviz/libgvplugin_neato_layout.so.6",
+    "lib/graphviz/libgvplugin_neato_layout.so.6.0.0",
+    "lib/libcdt.la",
+    "lib/libcdt.so",
+    "lib/libcdt.so.5",
+    "lib/libcdt.so.5.0.0",
+    "lib/libcgraph.la",
+    "lib/libcgraph.so",
+    "lib/libcgraph.so.6",
+    "lib/libcgraph.so.6.0.0",
+    "lib/libgvc.la",
+    "lib/libgvc.so",
+    "lib/libgvc.so.6",
+    "lib/libgvc.so.6.0.0",
+    "lib/libgvpr.la",
+    "lib/libgvpr.so",
+    "lib/libgvpr.so.2",
+    "lib/libgvpr.so.2.0.0",
+    "lib/libpathplan.la",
+    "lib/libpathplan.so",
+    "lib/libpathplan.so.4",
+    "lib/libpathplan.so.4.0.0",
+    "lib/libxdot.la",
+    "lib/libxdot.so",
+    "lib/libxdot.so.4",
+    "lib/libxdot.so.4.0.0",
+    "lib/pkgconfig/libcdt.pc",
+    "lib/pkgconfig/libcgraph.pc",
+    "lib/pkgconfig/libgvc.pc",
+    "lib/pkgconfig/libgvpr.pc",
+    "lib/pkgconfig/libpathplan.pc",
+    "lib/pkgconfig/libxdot.pc",
+    "share/graphviz/doc/AUTHORS",
+    "share/graphviz/doc/COPYING",
+    "share/graphviz/doc/ChangeLog",
+    "share/graphviz/doc/Dot.ref",
+    "share/graphviz/doc/NEWS",
+    "share/graphviz/doc/addingLayout.txt",
+    "share/graphviz/doc/cpl1.0.txt",
+    "share/graphviz/doc/fontfaq.txt",
+    "share/graphviz/doc/html/FAQ.html",
+    "share/graphviz/doc/html/build.html",
+    "share/graphviz/doc/html/char.html",
+    "share/graphviz/doc/html/gdtclft.entities.example.png",
+    "share/graphviz/doc/html/index.html",
+    "share/graphviz/doc/html/info/Mcircle.gif",
+    "share/graphviz/doc/html/info/Mdiamond.gif",
+    "share/graphviz/doc/html/info/Msquare.gif",
+    "share/graphviz/doc/html/info/a_box.gif",
+    "share/graphviz/doc/html/info/a_crow.gif",
+    "share/graphviz/doc/html/info/a_diamond.gif",
+    "share/graphviz/doc/html/info/a_dot.gif",
+    "share/graphviz/doc/html/info/a_ediamond.gif",
+    "share/graphviz/doc/html/info/a_empty.gif",
+    "share/graphviz/doc/html/info/a_forward.gif",
+    "share/graphviz/doc/html/info/a_halfopen.gif",
+    "share/graphviz/doc/html/info/a_inv.gif",
+    "share/graphviz/doc/html/info/a_invdot.gif",
+    "share/graphviz/doc/html/info/a_invempty.gif",
+    "share/graphviz/doc/html/info/a_invodot.gif",
+    "share/graphviz/doc/html/info/a_lteeoldiamond.gif",
+    "share/graphviz/doc/html/info/a_nohead.gif",
+    "share/graphviz/doc/html/info/a_none.gif",
+    "share/graphviz/doc/html/info/a_normal.gif",
+    "share/graphviz/doc/html/info/a_obox.gif",
+    "share/graphviz/doc/html/info/a_odiamond.gif",
+    "share/graphviz/doc/html/info/a_odot.gif",
+    "share/graphviz/doc/html/info/a_open.gif",
+    "share/graphviz/doc/html/info/a_tee.gif",
+    "share/graphviz/doc/html/info/aa_box.gif",
+    "share/graphviz/doc/html/info/aa_crow.gif",
+    "share/graphviz/doc/html/info/aa_diamond.gif",
+    "share/graphviz/doc/html/info/aa_dot.gif",
+    "share/graphviz/doc/html/info/aa_inv.gif",
+    "share/graphviz/doc/html/info/aa_lbox.gif",
+    "share/graphviz/doc/html/info/aa_lcrow.gif",
+    "share/graphviz/doc/html/info/aa_ldiamond.gif",
+    "share/graphviz/doc/html/info/aa_linv.gif",
+    "share/graphviz/doc/html/info/aa_lnormal.gif",
+    "share/graphviz/doc/html/info/aa_ltee.gif",
+    "share/graphviz/doc/html/info/aa_lvee.gif",
+    "share/graphviz/doc/html/info/aa_none.gif",
+    "share/graphviz/doc/html/info/aa_normal.gif",
+    "share/graphviz/doc/html/info/aa_obox.gif",
+    "share/graphviz/doc/html/info/aa_odiamond.gif",
+    "share/graphviz/doc/html/info/aa_odot.gif",
+    "share/graphviz/doc/html/info/aa_oinv.gif",
+    "share/graphviz/doc/html/info/aa_olbox.gif",
+    "share/graphviz/doc/html/info/aa_oldiamond.gif",
+    "share/graphviz/doc/html/info/aa_olinv.gif",
+    "share/graphviz/doc/html/info/aa_olnormal.gif",
+    "share/graphviz/doc/html/info/aa_onormal.gif",
+    "share/graphviz/doc/html/info/aa_orbox.gif",
+    "share/graphviz/doc/html/info/aa_ordiamond.gif",
+    "share/graphviz/doc/html/info/aa_orinv.gif",
+    "share/graphviz/doc/html/info/aa_ornormal.gif",
+    "share/graphviz/doc/html/info/aa_rbox.gif",
+    "share/graphviz/doc/html/info/aa_rcrow.gif",
+    "share/graphviz/doc/html/info/aa_rdiamond.gif",
+    "share/graphviz/doc/html/info/aa_rinv.gif",
+    "share/graphviz/doc/html/info/aa_rnormal.gif",
+    "share/graphviz/doc/html/info/aa_rtee.gif",
+    "share/graphviz/doc/html/info/aa_rvee.gif",
+    "share/graphviz/doc/html/info/aa_tee.gif",
+    "share/graphviz/doc/html/info/aa_vee.gif",
+    "share/graphviz/doc/html/info/arrows.html",
+    "share/graphviz/doc/html/info/attrs.html",
+    "share/graphviz/doc/html/info/back.gif",
+    "share/graphviz/doc/html/info/both.gif",
+    "share/graphviz/doc/html/info/box.gif",
+    "share/graphviz/doc/html/info/box3d.gif",
+    "share/graphviz/doc/html/info/c_bold.png",
+    "share/graphviz/doc/html/info/c_dashed.png",
+    "share/graphviz/doc/html/info/c_dotted.png",
+    "share/graphviz/doc/html/info/c_filled.png",
+    "share/graphviz/doc/html/info/c_rounded.png",
+    "share/graphviz/doc/html/info/c_solid.png",
+    "share/graphviz/doc/html/info/c_striped.png",
+    "share/graphviz/doc/html/info/circle.gif",
+    "share/graphviz/doc/html/info/colorlist.gif",
+    "share/graphviz/doc/html/info/colors.html",
+    "share/graphviz/doc/html/info/command.html",
+    "share/graphviz/doc/html/info/component.gif",
+    "share/graphviz/doc/html/info/constraint.gif",
+    "share/graphviz/doc/html/info/diamond.gif",
+    "share/graphviz/doc/html/info/doublecircle.gif",
+    "share/graphviz/doc/html/info/doubleoctagon.gif",
+    "share/graphviz/doc/html/info/e_bold.png",
+    "share/graphviz/doc/html/info/e_dashed.png",
+    "share/graphviz/doc/html/info/e_dotted.png",
+    "share/graphviz/doc/html/info/e_solid.png",
+    "share/graphviz/doc/html/info/egg.gif",
+    "share/graphviz/doc/html/info/ellipse.gif",
+    "share/graphviz/doc/html/info/fill.gif",
+    "share/graphviz/doc/html/info/folder.gif",
+    "share/graphviz/doc/html/info/forward.gif",
+    "share/graphviz/doc/html/info/g_lin0.png",
+    "share/graphviz/doc/html/info/g_lin180.png",
+    "share/graphviz/doc/html/info/g_lin270.png",
+    "share/graphviz/doc/html/info/g_lin360.png",
+    "share/graphviz/doc/html/info/g_lin45.png",
+    "share/graphviz/doc/html/info/g_lin90.png",
+    "share/graphviz/doc/html/info/g_rad0.png",
+    "share/graphviz/doc/html/info/g_rad180.png",
+    "share/graphviz/doc/html/info/g_rad270.png",
+    "share/graphviz/doc/html/info/g_rad360.png",
+    "share/graphviz/doc/html/info/g_rad45.png",
+    "share/graphviz/doc/html/info/g_rad90.png",
+    "share/graphviz/doc/html/info/hexagon.gif",
+    "share/graphviz/doc/html/info/house.gif",
+    "share/graphviz/doc/html/info/html1.gif",
+    "share/graphviz/doc/html/info/html2.gif",
+    "share/graphviz/doc/html/info/html2.gv",
+    "share/graphviz/doc/html/info/html3.gif",
+    "share/graphviz/doc/html/info/html3.gv",
+    "share/graphviz/doc/html/info/html4.gif",
+    "share/graphviz/doc/html/info/html4.gv",
+    "share/graphviz/doc/html/info/index.html",
+    "share/graphviz/doc/html/info/invhouse.gif",
+    "share/graphviz/doc/html/info/invtrapezium.gif",
+    "share/graphviz/doc/html/info/invtriangle.gif",
+    "share/graphviz/doc/html/info/lang.html",
+    "share/graphviz/doc/html/info/mrecord.gif",
+    "share/graphviz/doc/html/info/n_bold.png",
+    "share/graphviz/doc/html/info/n_dashed.png",
+    "share/graphviz/doc/html/info/n_diagonals.png",
+    "share/graphviz/doc/html/info/n_dotted.png",
+    "share/graphviz/doc/html/info/n_filled.png",
+    "share/graphviz/doc/html/info/n_rounded.png",
+    "share/graphviz/doc/html/info/n_solid.png",
+    "share/graphviz/doc/html/info/n_striped.png",
+    "share/graphviz/doc/html/info/n_wedged.png",
+    "share/graphviz/doc/html/info/nohead.gif",
+    "share/graphviz/doc/html/info/none.gif",
+    "share/graphviz/doc/html/info/none_back.png",
+    "share/graphviz/doc/html/info/none_both.png",
+    "share/graphviz/doc/html/info/none_forward.png",
+    "share/graphviz/doc/html/info/none_none.png",
+    "share/graphviz/doc/html/info/normal_back.png",
+    "share/graphviz/doc/html/info/normal_both.png",
+    "share/graphviz/doc/html/info/normal_forward.png",
+    "share/graphviz/doc/html/info/normal_none.png",
+    "share/graphviz/doc/html/info/note.gif",
+    "share/graphviz/doc/html/info/octagon.gif",
+    "share/graphviz/doc/html/info/output.html",
+    "share/graphviz/doc/html/info/oval.gif",
+    "share/graphviz/doc/html/info/parallelogram.gif",
+    "share/graphviz/doc/html/info/pentagon.gif",
+    "share/graphviz/doc/html/info/plaintext.gif",
+    "share/graphviz/doc/html/info/plugins.png",
+    "share/graphviz/doc/html/info/point.gif",
+    "share/graphviz/doc/html/info/polygon.gif",
+    "share/graphviz/doc/html/info/record.gif",
+    "share/graphviz/doc/html/info/record2.gif",
+    "share/graphviz/doc/html/info/rect.gif",
+    "share/graphviz/doc/html/info/rectangle.gif",
+    "share/graphviz/doc/html/info/round.gif",
+    "share/graphviz/doc/html/info/sdlshapes.jpg",
+    "share/graphviz/doc/html/info/sdlshapes.png",
+    "share/graphviz/doc/html/info/septagon.gif",
+    "share/graphviz/doc/html/info/shapes.html",
+    "share/graphviz/doc/html/info/spline_curved.png",
+    "share/graphviz/doc/html/info/spline_line.png",
+    "share/graphviz/doc/html/info/spline_none.png",
+    "share/graphviz/doc/html/info/spline_ortho.png",
+    "share/graphviz/doc/html/info/spline_polyline.png",
+    "share/graphviz/doc/html/info/spline_spline.png",
+    "share/graphviz/doc/html/info/square.gif",
+    "share/graphviz/doc/html/info/tab.gif",
+    "share/graphviz/doc/html/info/trapezium.gif",
+    "share/graphviz/doc/html/info/triangle.gif",
+    "share/graphviz/doc/html/info/tripleoctagon.gif",
+    "share/graphviz/doc/html/info/underline.gif",
+    "share/graphviz/doc/html/internal_todo.html",
+    "share/graphviz/doc/html/pspdf.png",
+    "share/graphviz/doc/html/schema/arguments.xml",
+    "share/graphviz/doc/html/schema/attributes.xml",
+    "share/graphviz/doc/html/schema/attributes.xslt",
+    "share/graphviz/doc/html/todo.html",
+    "share/graphviz/doc/html/winbuild.html",
+    "share/graphviz/doc/latex_suggestions.txt",
+    "share/graphviz/doc/pdf/Agraph.pdf",
+    "share/graphviz/doc/pdf/acyclic.1.pdf",
+    "share/graphviz/doc/pdf/bcomps.1.pdf",
+    "share/graphviz/doc/pdf/ccomps.1.pdf",
+    "share/graphviz/doc/pdf/cdt.3.pdf",
+    "share/graphviz/doc/pdf/cgraph.3.pdf",
+    "share/graphviz/doc/pdf/circo.1.pdf",
+    "share/graphviz/doc/pdf/cluster.1.pdf",
+    "share/graphviz/doc/pdf/diffimg.1.pdf",
+    "share/graphviz/doc/pdf/dijkstra.1.pdf",
+    "share/graphviz/doc/pdf/dot.1.pdf",
+    "share/graphviz/doc/pdf/dotguide.pdf",
+    "share/graphviz/doc/pdf/dottyguide.pdf",
+    "share/graphviz/doc/pdf/edgepaint.1.pdf",
+    "share/graphviz/doc/pdf/expr.3.pdf",
+    "share/graphviz/doc/pdf/fdp.1.pdf",
+    "share/graphviz/doc/pdf/gc.1.pdf",
+    "share/graphviz/doc/pdf/gml2gv.1.pdf",
+    "share/graphviz/doc/pdf/graphml2gv.1.pdf",
+    "share/graphviz/doc/pdf/gv2gml.1.pdf",
+    "share/graphviz/doc/pdf/gv2gxl.1.pdf",
+    "share/graphviz/doc/pdf/gvc.3.pdf",
+    "share/graphviz/doc/pdf/gvcolor.1.pdf",
+    "share/graphviz/doc/pdf/gvgen.1.pdf",
+    "share/graphviz/doc/pdf/gvmap.1.pdf",
+    "share/graphviz/doc/pdf/gvmap.sh.1.pdf",
+    "share/graphviz/doc/pdf/gvpack.1.pdf",
+    "share/graphviz/doc/pdf/gvpr.1.pdf",
+    "share/graphviz/doc/pdf/gvpr.3.pdf",
+    "share/graphviz/doc/pdf/gxl2gv.1.pdf",
+    "share/graphviz/doc/pdf/leftyguide.pdf",
+    "share/graphviz/doc/pdf/libguide.pdf",
+    "share/graphviz/doc/pdf/mm2gv.1.pdf",
+    "share/graphviz/doc/pdf/neato.1.pdf",
+    "share/graphviz/doc/pdf/neatoguide.pdf",
+    "share/graphviz/doc/pdf/nop.1.pdf",
+    "share/graphviz/doc/pdf/osage.1.pdf",
+    "share/graphviz/doc/pdf/pack.3.pdf",
+    "share/graphviz/doc/pdf/patchwork.1.pdf",
+    "share/graphviz/doc/pdf/pathplan.3.pdf",
+    "share/graphviz/doc/pdf/prune.pdf",
+    "share/graphviz/doc/pdf/sccmap.1.pdf",
+    "share/graphviz/doc/pdf/sfdp.1.pdf",
+    "share/graphviz/doc/pdf/smyrna.pdf",
+    "share/graphviz/doc/pdf/tred.1.pdf",
+    "share/graphviz/doc/pdf/twopi.1.pdf",
+    "share/graphviz/doc/pdf/unflatten.1.pdf",
+    "share/graphviz/doc/pdf/vimdot.1.pdf",
+    "share/graphviz/doc/pdf/xdot.3.pdf",
+    "share/graphviz/graphs/directed/KW91.gv",
+    "share/graphviz/graphs/directed/Latin1.gv",
+    "share/graphviz/graphs/directed/NaN.gv",
+    "share/graphviz/graphs/directed/abstract.gv",
+    "share/graphviz/graphs/directed/alf.gv",
+    "share/graphviz/graphs/directed/arrows.gv",
+    "share/graphviz/graphs/directed/awilliams.gv",
+    "share/graphviz/graphs/directed/biological.gv",
+    "share/graphviz/graphs/directed/clust.gv",
+    "share/graphviz/graphs/directed/clust1.gv",
+    "share/graphviz/graphs/directed/clust2.gv",
+    "share/graphviz/graphs/directed/clust3.gv",
+    "share/graphviz/graphs/directed/clust4.gv",
+    "share/graphviz/graphs/directed/clust5.gv",
+    "share/graphviz/graphs/directed/crazy.gv",
+    "share/graphviz/graphs/directed/ctext.gv",
+    "share/graphviz/graphs/directed/dfa.gv",
+    "share/graphviz/graphs/directed/fig6.gv",
+    "share/graphviz/graphs/directed/fsm.gv",
+    "share/graphviz/graphs/directed/grammar.gv",
+    "share/graphviz/graphs/directed/hashtable.gv",
+    "share/graphviz/graphs/directed/honda-tokoro.gv",
+    "share/graphviz/graphs/directed/japanese.gv",
+    "share/graphviz/graphs/directed/jcctree.gv",
+    "share/graphviz/graphs/directed/jsort.gv",
+    "share/graphviz/graphs/directed/ldbxtried.gv",
+    "share/graphviz/graphs/directed/longflat.gv",
+    "share/graphviz/graphs/directed/mike.gv",
+    "share/graphviz/graphs/directed/nhg.gv",
+    "share/graphviz/graphs/directed/oldarrows.gv",
+    "share/graphviz/graphs/directed/pgram.gv",
+    "share/graphviz/graphs/directed/pm2way.gv",
+    "share/graphviz/graphs/directed/pmpipe.gv",
+    "share/graphviz/graphs/directed/polypoly.gv",
+    "share/graphviz/graphs/directed/proc3d.gv",
+    "share/graphviz/graphs/directed/psfonttest.gv",
+    "share/graphviz/graphs/directed/record2.gv",
+    "share/graphviz/graphs/directed/records.gv",
+    "share/graphviz/graphs/directed/rowe.gv",
+    "share/graphviz/graphs/directed/russian.gv",
+    "share/graphviz/graphs/directed/sdh.gv",
+    "share/graphviz/graphs/directed/shells.gv",
+    "share/graphviz/graphs/directed/states.gv",
+    "share/graphviz/graphs/directed/structs.gv",
+    "share/graphviz/graphs/directed/switch.gv",
+    "share/graphviz/graphs/directed/table.gv",
+    "share/graphviz/graphs/directed/train11.gv",
+    "share/graphviz/graphs/directed/trapeziumlr.gv",
+    "share/graphviz/graphs/directed/tree.gv",
+    "share/graphviz/graphs/directed/triedds.gv",
+    "share/graphviz/graphs/directed/try.gv",
+    "share/graphviz/graphs/directed/unix.gv",
+    "share/graphviz/graphs/directed/unix2.gv",
+    "share/graphviz/graphs/directed/viewfile.gv",
+    "share/graphviz/graphs/directed/world.gv",
+    "share/graphviz/graphs/undirected/ER.gv",
+    "share/graphviz/graphs/undirected/Heawood.gv",
+    "share/graphviz/graphs/undirected/Petersen.gv",
+    "share/graphviz/graphs/undirected/ngk10_4.gv",
+    "share/graphviz/graphs/undirected/process.gv",
+    "share/graphviz/gvpr/addranks",
+    "share/graphviz/gvpr/addrings",
+    "share/graphviz/gvpr/anon",
+    "share/graphviz/gvpr/attr",
+    "share/graphviz/gvpr/bb",
+    "share/graphviz/gvpr/bbox",
+    "share/graphviz/gvpr/chkclusters",
+    "share/graphviz/gvpr/cliptree",
+    "share/graphviz/gvpr/col",
+    "share/graphviz/gvpr/collapse",
+    "share/graphviz/gvpr/color",
+    "share/graphviz/gvpr/cycle",
+    "share/graphviz/gvpr/dechain",
+    "share/graphviz/gvpr/deghist",
+    "share/graphviz/gvpr/deledges",
+    "share/graphviz/gvpr/delmulti",
+    "share/graphviz/gvpr/delnodes",
+    "share/graphviz/gvpr/depath",
+    "share/graphviz/gvpr/dijkstra",
+    "share/graphviz/gvpr/flatten",
+    "share/graphviz/gvpr/get-layers-list",
+    "share/graphviz/gvpr/group",
+    "share/graphviz/gvpr/indent",
+    "share/graphviz/gvpr/knbhd",
+    "share/graphviz/gvpr/maxdeg",
+    "share/graphviz/gvpr/path",
+    "share/graphviz/gvpr/rotate",
+    "share/graphviz/gvpr/scale",
+    "share/graphviz/gvpr/scalexy",
+    "share/graphviz/gvpr/span",
+    "share/graphviz/gvpr/topon",
+    "share/graphviz/gvpr/treetoclust",
+    "share/graphviz/lefty/box.lefty",
+    "share/graphviz/lefty/def.lefty",
+    "share/graphviz/lefty/fractal.lefty",
+    "share/graphviz/lefty/fractal2.lefty",
+    "share/graphviz/lefty/lefty.psp",
+    "share/graphviz/lefty/slides.lefty",
+    "share/graphviz/lefty/tree.lefty",
+    "share/man/man1/acyclic.1",
+    "share/man/man1/bcomps.1",
+    "share/man/man1/ccomps.1",
+    "share/man/man1/circo.1",
+    "share/man/man1/cluster.1",
+    "share/man/man1/diffimg.1",
+    "share/man/man1/dijkstra.1",
+    "share/man/man1/dot.1",
+    "share/man/man1/edgepaint.1",
+    "share/man/man1/fdp.1",
+    "share/man/man1/gc.1",
+    "share/man/man1/gml2gv.1",
+    "share/man/man1/graphml2gv.1",
+    "share/man/man1/gv2gml.1",
+    "share/man/man1/gv2gxl.1",
+    "share/man/man1/gvcolor.1",
+    "share/man/man1/gvgen.1",
+    "share/man/man1/gvmap.1",
+    "share/man/man1/gvmap.sh.1",
+    "share/man/man1/gvpack.1",
+    "share/man/man1/gvpr.1",
+    "share/man/man1/gxl2gv.1",
+    "share/man/man1/mm2gv.1",
+    "share/man/man1/neato.1",
+    "share/man/man1/nop.1",
+    "share/man/man1/osage.1",
+    "share/man/man1/patchwork.1",
+    "share/man/man1/prune.1",
+    "share/man/man1/sccmap.1",
+    "share/man/man1/sfdp.1",
+    "share/man/man1/tred.1",
+    "share/man/man1/twopi.1",
+    "share/man/man1/unflatten.1",
+    "share/man/man1/vimdot.1",
+    "share/man/man3/cdt.3",
+    "share/man/man3/cgraph.3",
+    "share/man/man3/expr.3",
+    "share/man/man3/gvc.3",
+    "share/man/man3/gvpr.3",
+    "share/man/man3/pack.3",
+    "share/man/man3/pathplan.3",
+    "share/man/man3/xdot.3",
+    "share/man/man7/graphviz.7"
+  ],
+  "fn": "graphviz-2.38.0-0.tar.bz2",
+  "license": "EPL",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/graphviz-2.38.0-0",
+    "type": 1
+  },
+  "md5": "954d8032637695d01e0d6b1d0dbc9004",
+  "name": "graphviz",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/graphviz-2.38.0-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/acyclic",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/bcomps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/ccomps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/circo",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/cluster",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/dijkstra",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/dot",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/dot2gxl",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/dot_builtins",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/edgepaint",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/fdp",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gml2gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/graphml2gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gv2gml",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gv2gxl",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gvcolor",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gvgen",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gvmap",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gvmap.sh",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gvpack",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gvpr",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gxl2dot",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gxl2gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/mm2gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/neato",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/nop",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/osage",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/patchwork",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/prune",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/sccmap",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/sfdp",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tred",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/twopi",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/unflatten",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/arith.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/cdt.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/cgraph.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/color.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/geom.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/graphviz_version.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gv.cpp",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gv.i",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvcext.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvcjob.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvcommon.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvconfig.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvplugin.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvplugin_device.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvplugin_layout.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvplugin_loadimage.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvplugin_render.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvplugin_textlayout.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/gvpr.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/pack.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/pathgeom.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/pathplan.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/textspan.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/types.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/usershape.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/graphviz/xdot.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/graphviz/config6",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_core.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "aa0362ad97b32c106b6c77b4e82f9a0087fa81af8f524f9013a2f5f9672eea61"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_core.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_core.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_core.so.6.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_dot_layout.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0a3411d5300c98624ca4648e5c2bba4c3a377ee8e4d770fc48119af2a90bbe89"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_dot_layout.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_dot_layout.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_dot_layout.so.6.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_neato_layout.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "acc2ed18ec0e339450efddf1fddd3af53cc4c623df7692cb00a4f489c4fe6a86"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_neato_layout.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_neato_layout.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_neato_layout.so.6.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libcdt.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b3d06d00250c9ac581899362cdd49881e4055a7fe0a30dfdc0ee26147651d43c"
+      },
+      {
+        "_path": "lib/libcdt.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libcdt.so.5",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libcdt.so.5.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libcgraph.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6a23642b555a6938a61e4776440d873372a75908ab4dd544167b2b0de2edf179"
+      },
+      {
+        "_path": "lib/libcgraph.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libcgraph.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libcgraph.so.6.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgvc.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ef8b55d5f3d7214bd740814a0ef7ffa9c7896dc5a46ec819c4acdf2d4a359964"
+      },
+      {
+        "_path": "lib/libgvc.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgvc.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgvc.so.6.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/rgrout/miniconda/envs/_build_placehold_placehold_placehold_placehold_place",
+        "sha256_in_prefix": "71caa284520be86ad555da20be9036a881c23c8dc85c406a29ca2ef408492143"
+      },
+      {
+        "_path": "lib/libgvpr.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "172b89152704835170d41cf4b766782051dca137e96e9c0691083ea57e9dab3e"
+      },
+      {
+        "_path": "lib/libgvpr.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgvpr.so.2",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgvpr.so.2.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/rgrout/miniconda/envs/_build_placehold_placehold_placehold_placehold_place",
+        "sha256_in_prefix": "f027ada8f863bf81fa43f13a18d97741cb6c7314f823758b96448c51262900b6"
+      },
+      {
+        "_path": "lib/libpathplan.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "38cfda8f51213421a6cca7ee3cff4cf8cca52ff60149514d7eed87f0e03d19a3"
+      },
+      {
+        "_path": "lib/libpathplan.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpathplan.so.4",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpathplan.so.4.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libxdot.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "746a4d1b2943bb463dc984ec0057f4fe31105eaa537df2f5f509399b3e723734"
+      },
+      {
+        "_path": "lib/libxdot.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libxdot.so.4",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libxdot.so.4.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/pkgconfig/libcdt.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "e64ca45152efc2fe5eac60eb6a8b979b08b8fe4b50ce790a17af9cde69f70dbc"
+      },
+      {
+        "_path": "lib/pkgconfig/libcgraph.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "50b7f6a9b5f61e0f84a8f7c068a61a8de8a9b44ad0a461cb0783572beee5e61e"
+      },
+      {
+        "_path": "lib/pkgconfig/libgvc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f221c483635339e7e1820cb6f7b2398f28f561d95de5ba7330500c114ec5ee54"
+      },
+      {
+        "_path": "lib/pkgconfig/libgvpr.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "baff93e34f3b001e3449016a2edc8bde3fe02b9ea9b000cebaec04ce64993c32"
+      },
+      {
+        "_path": "lib/pkgconfig/libpathplan.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b0d7b0d2ee2fae9618eb182cbb8c08b256160edaaabde879d3fe3a8c202a485f"
+      },
+      {
+        "_path": "lib/pkgconfig/libxdot.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "dc0b2446bcbbd843b6434a0f1e621e9248506c6b252978f6c9079338342a9849"
+      },
+      {
+        "_path": "share/graphviz/doc/AUTHORS",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/COPYING",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/ChangeLog",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/Dot.ref",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/NEWS",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/addingLayout.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/cpl1.0.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/fontfaq.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/FAQ.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/build.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/char.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/gdtclft.entities.example.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/Mcircle.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/Mdiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/Msquare.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_box.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_crow.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_diamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_dot.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_ediamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_empty.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_forward.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_halfopen.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_inv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_invdot.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_invempty.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_invodot.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_lteeoldiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_nohead.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_none.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_normal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_obox.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_odiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_odot.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_open.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/a_tee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_box.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_crow.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_diamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_dot.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_inv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_lbox.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_lcrow.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_ldiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_linv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_lnormal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_ltee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_lvee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_none.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_normal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_obox.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_odiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_odot.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_oinv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_olbox.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_oldiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_olinv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_olnormal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_onormal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_orbox.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_ordiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_orinv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_ornormal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rbox.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rcrow.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rdiamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rinv.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rnormal.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rtee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_rvee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_tee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/aa_vee.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/arrows.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/attrs.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/back.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/both.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/box.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/box3d.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_bold.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_dashed.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_dotted.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_filled.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_rounded.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_solid.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/c_striped.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/circle.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/colorlist.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/colors.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/command.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/component.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/constraint.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/diamond.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/doublecircle.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/doubleoctagon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/e_bold.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/e_dashed.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/e_dotted.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/e_solid.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/egg.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/ellipse.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/fill.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/folder.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/forward.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_lin0.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_lin180.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_lin270.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_lin360.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_lin45.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_lin90.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_rad0.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_rad180.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_rad270.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_rad360.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_rad45.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/g_rad90.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/hexagon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/house.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html1.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html2.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html2.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html3.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html3.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html4.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/html4.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/invhouse.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/invtrapezium.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/invtriangle.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/lang.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/mrecord.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_bold.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_dashed.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_diagonals.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_dotted.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_filled.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_rounded.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_solid.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_striped.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/n_wedged.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/nohead.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/none.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/none_back.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/none_both.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/none_forward.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/none_none.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/normal_back.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/normal_both.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/normal_forward.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/normal_none.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/note.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/octagon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/output.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/oval.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/parallelogram.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/pentagon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/plaintext.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/plugins.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/point.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/polygon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/record.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/record2.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/rect.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/rectangle.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/round.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/sdlshapes.jpg",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/sdlshapes.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/septagon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/shapes.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/spline_curved.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/spline_line.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/spline_none.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/spline_ortho.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/spline_polyline.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/spline_spline.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/square.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/tab.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/trapezium.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/triangle.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/tripleoctagon.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/underline.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/internal_todo.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/pspdf.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/schema/arguments.xml",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/schema/attributes.xml",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/schema/attributes.xslt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/todo.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/html/winbuild.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/latex_suggestions.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/Agraph.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/acyclic.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/bcomps.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/ccomps.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/cdt.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/cgraph.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/circo.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/cluster.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/diffimg.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/dijkstra.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/dot.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/dotguide.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/dottyguide.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/edgepaint.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/expr.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/fdp.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gc.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gml2gv.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/graphml2gv.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gv2gml.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gv2gxl.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvc.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvcolor.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvgen.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvmap.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvmap.sh.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvpack.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvpr.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gvpr.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/gxl2gv.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/leftyguide.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/libguide.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/mm2gv.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/neato.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/neatoguide.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/nop.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/osage.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/pack.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/patchwork.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/pathplan.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/prune.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/sccmap.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/sfdp.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/smyrna.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/tred.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/twopi.1.pdf",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/unflatten.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/vimdot.1.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/xdot.3.pdf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/KW91.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/Latin1.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/NaN.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/abstract.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/alf.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/arrows.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/awilliams.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/biological.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust1.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust2.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust3.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust4.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust5.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/crazy.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/ctext.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/dfa.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/fig6.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/fsm.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/grammar.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/hashtable.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/honda-tokoro.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/japanese.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/jcctree.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/jsort.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/ldbxtried.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/longflat.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/mike.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/nhg.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/oldarrows.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/pgram.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/pm2way.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/pmpipe.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/polypoly.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/proc3d.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/psfonttest.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/record2.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/records.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/rowe.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/russian.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/sdh.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/shells.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/states.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/structs.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/switch.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/table.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/train11.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/trapeziumlr.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/tree.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/triedds.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/try.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/unix.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/unix2.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/viewfile.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/world.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/ER.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/Heawood.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/Petersen.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/ngk10_4.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/process.gv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/addranks",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/addrings",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/anon",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/attr",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/bb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/bbox",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/chkclusters",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/cliptree",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/col",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/collapse",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/color",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/cycle",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/dechain",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/deghist",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/deledges",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/delmulti",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/delnodes",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/depath",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/dijkstra",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/flatten",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/get-layers-list",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/group",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/indent",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/knbhd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/maxdeg",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/path",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/rotate",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/scale",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/scalexy",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/span",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/topon",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/gvpr/treetoclust",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/box.lefty",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/def.lefty",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/fractal.lefty",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/fractal2.lefty",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/lefty.psp",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/slides.lefty",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/graphviz/lefty/tree.lefty",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/acyclic.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/bcomps.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/ccomps.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/circo.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/cluster.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/diffimg.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/dijkstra.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/dot.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/edgepaint.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/fdp.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/gc.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gml2gv.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/graphml2gv.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gv2gml.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/gv2gxl.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/gvcolor.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gvgen.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gvmap.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gvmap.sh.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gvpack.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gvpr.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gxl2gv.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/mm2gv.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/neato.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/nop.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/osage.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/patchwork.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/prune.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/sccmap.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/sfdp.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/tred.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/twopi.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "share/man/man1/unflatten.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/vimdot.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/cdt.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/cgraph.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/expr.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/gvc.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/gvpr.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/pack.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/pathplan.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/xdot.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man7/graphviz.7",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "graphviz==2.38.0=0",
+  "size": 12012028,
+  "subdir": "linux-64",
+  "url": "https://conda.anaconda.org/rmg/linux-64/graphviz-2.38.0-0.tar.bz2",
+  "version": "2.38.0"
+}

@@ -1,0 +1,192 @@
+{
+  "build": "pyhd3deb0d_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "graphviz",
+    "python"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/python-graphviz-0.16-pyhd3deb0d_1",
+  "files": [
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/LICENSE.txt",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/METADATA",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/RECORD",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/WHEEL",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/graphviz-0.16.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/graphviz/__init__.py",
+    "lib/python3.7/site-packages/graphviz/_compat.py",
+    "lib/python3.7/site-packages/graphviz/backend.py",
+    "lib/python3.7/site-packages/graphviz/dot.py",
+    "lib/python3.7/site-packages/graphviz/files.py",
+    "lib/python3.7/site-packages/graphviz/lang.py",
+    "lib/python3.7/site-packages/graphviz/tools.py",
+    "lib/python3.7/site-packages/graphviz/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/graphviz/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/graphviz/__pycache__/backend.cpython-37.pyc",
+    "lib/python3.7/site-packages/graphviz/__pycache__/dot.cpython-37.pyc",
+    "lib/python3.7/site-packages/graphviz/__pycache__/files.cpython-37.pyc",
+    "lib/python3.7/site-packages/graphviz/__pycache__/lang.cpython-37.pyc",
+    "lib/python3.7/site-packages/graphviz/__pycache__/tools.cpython-37.pyc"
+  ],
+  "fn": "python-graphviz-0.16-pyhd3deb0d_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/python-graphviz-0.16-pyhd3deb0d_1",
+    "type": 1
+  },
+  "md5": "0bddaf14a6d50e015ac6e492be207b4f",
+  "name": "python-graphviz",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/python-graphviz-0.16-pyhd3deb0d_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "27443ee4b671fd8ac45b9a9abf4436a2a60d02cabe8813a57c3006cd82aa5685",
+        "sha256_in_prefix": "27443ee4b671fd8ac45b9a9abf4436a2a60d02cabe8813a57c3006cd82aa5685",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7169ccf1ef687f1dbaa928e55940a2a070b3e53158e46210c85717ae7e0f0907",
+        "sha256_in_prefix": "7169ccf1ef687f1dbaa928e55940a2a070b3e53158e46210c85717ae7e0f0907",
+        "size_in_bytes": 7141
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0ef6a1aed513732861d8ae72ab5697411d60d24d1ea139431cfbb3a32db60892",
+        "sha256_in_prefix": "0ef6a1aed513732861d8ae72ab5697411d60d24d1ea139431cfbb3a32db60892",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f45ff15861c90587aafbd4ef80dde93c826163dc131052fa8fdf46e6ba8b720f",
+        "sha256_in_prefix": "f45ff15861c90587aafbd4ef80dde93c826163dc131052fa8fdf46e6ba8b720f",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/graphviz-0.16.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "11ef7447489c5045d2d00bc825ba95b8dbda8276a4ba13f95a2a6cd0b0e442ec",
+        "sha256_in_prefix": "11ef7447489c5045d2d00bc825ba95b8dbda8276a4ba13f95a2a6cd0b0e442ec",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/graphviz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b703432d119c1dd1642e4b376cfe0c21b8f0fb32dff146bf6e5807ffa702ac9",
+        "sha256_in_prefix": "3b703432d119c1dd1642e4b376cfe0c21b8f0fb32dff146bf6e5807ffa702ac9",
+        "size_in_bytes": 1871
+      },
+      {
+        "_path": "site-packages/graphviz/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "8a195747fa1e62cc11b524161af1aa96ce09c0af4c4d5f76b927a2072a068540",
+        "sha256_in_prefix": "8a195747fa1e62cc11b524161af1aa96ce09c0af4c4d5f76b927a2072a068540",
+        "size_in_bytes": 2107
+      },
+      {
+        "_path": "site-packages/graphviz/backend.py",
+        "path_type": "hardlink",
+        "sha256": "6886defce0215c6e556e6a14551463824620451d8cbc44f5bf68bea41219870c",
+        "sha256_in_prefix": "6886defce0215c6e556e6a14551463824620451d8cbc44f5bf68bea41219870c",
+        "size_in_bytes": 12490
+      },
+      {
+        "_path": "site-packages/graphviz/dot.py",
+        "path_type": "hardlink",
+        "sha256": "80cd13d476c3e955999eeda02905044eab4b730a7a81a0036ac03aade244fa4f",
+        "sha256_in_prefix": "80cd13d476c3e955999eeda02905044eab4b730a7a81a0036ac03aade244fa4f",
+        "size_in_bytes": 11869
+      },
+      {
+        "_path": "site-packages/graphviz/files.py",
+        "path_type": "hardlink",
+        "sha256": "3c12690dcd17aca90643ec090b4baf7720182ea82e61a01dcdad0742382646d0",
+        "sha256_in_prefix": "3c12690dcd17aca90643ec090b4baf7720182ea82e61a01dcdad0742382646d0",
+        "size_in_bytes": 13565
+      },
+      {
+        "_path": "site-packages/graphviz/lang.py",
+        "path_type": "hardlink",
+        "sha256": "0d25f8f65acae850815eb14a6bdec8471b7b415145f8c9568fed040d43caa121",
+        "sha256_in_prefix": "0d25f8f65acae850815eb14a6bdec8471b7b415145f8c9568fed040d43caa121",
+        "size_in_bytes": 5513
+      },
+      {
+        "_path": "site-packages/graphviz/tools.py",
+        "path_type": "hardlink",
+        "sha256": "c3c4fcd9be94aa2664f450dc7601c358ad2757a09b85877e4be0a59623cdb919",
+        "sha256_in_prefix": "c3c4fcd9be94aa2664f450dc7601c358ad2757a09b85877e4be0a59623cdb919",
+        "size_in_bytes": 1322
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/backend.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/dot.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/files.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/lang.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/graphviz/__pycache__/tools.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-graphviz==0.16=pyhd3deb0d_1",
+  "sha256": "01f8864cf919c8a947ccae6dfc0ff4d8d511a18b54ad4d1b3bad189ecdd08535",
+  "size": 20501,
+  "subdir": "noarch",
+  "timestamp": 1609966503059,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-graphviz-0.16-pyhd3deb0d_1.tar.bz2",
+  "version": "0.16"
+}

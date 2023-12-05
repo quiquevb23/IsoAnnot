@@ -1,0 +1,11 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/4af6d4479a58938128e568c6aec824e5_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XInput
+Description: XCB XInput Extension (EXPERIMENTAL)
+Version: 1.13
+Requires.private: xcb xcb-xfixes
+Libs: -L${libdir} -lxcb-xinput
+Cflags: -I${includedir}

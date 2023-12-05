@@ -1,0 +1,12 @@
+prefix=/home/quiquevb/IsoAnnot/.snakemake/conda/3853f8307511150eacc9f54974e6870e_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lm -lz -lm 
+Cflags: -I${includedir}

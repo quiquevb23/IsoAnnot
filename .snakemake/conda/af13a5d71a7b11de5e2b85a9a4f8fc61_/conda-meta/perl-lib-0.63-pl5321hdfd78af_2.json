@@ -1,0 +1,53 @@
+{
+  "build": "pl5321hdfd78af_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/quiquevb/.conda/pkgs/perl-lib-0.63-pl5321hdfd78af_2",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/lib/.packlist",
+    "lib/perl5/site_perl/lib.pm"
+  ],
+  "fn": "perl-lib-0.63-pl5321hdfd78af_2.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/quiquevb/.conda/pkgs/perl-lib-0.63-pl5321hdfd78af_2",
+    "type": 1
+  },
+  "md5": "fa7b3ceba90bf02ef23133f5774bb812",
+  "name": "perl-lib",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/quiquevb/.conda/pkgs/perl-lib-0.63-pl5321hdfd78af_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/lib/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-lib_1642509077015/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "f1a92cfaed63f00c7c7de9adcda19806b7155b6055134c3d10704b65d0fee9a8",
+        "sha256_in_prefix": "7d13bb9a6c01edb689d8cdda018b1eddc983dd4c01a6a9431dc43f2e4dfa4506",
+        "size_in_bytes": 640
+      },
+      {
+        "_path": "lib/perl5/site_perl/lib.pm",
+        "path_type": "hardlink",
+        "sha256": "ce384654dd7cf47dc88a939448dac9030f03e268be8bac7bd192a742500db9ce",
+        "sha256_in_prefix": "ce384654dd7cf47dc88a939448dac9030f03e268be8bac7bd192a742500db9ce",
+        "size_in_bytes": 6006
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f452e1c1c646e3f1a69431e8e941f9614b95ebcb4c0b1d8a5bdec271a89d59c9",
+  "size": 9065,
+  "subdir": "noarch",
+  "timestamp": 1642509272545,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-lib-0.63-pl5321hdfd78af_2.tar.bz2",
+  "version": "0.63"
+}
